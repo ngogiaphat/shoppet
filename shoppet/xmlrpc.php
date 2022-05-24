@@ -16,7 +16,8 @@
 		$HTTP_RAW_POST_DATA = file_get_contents( 'php://input' );
 	}
 	// Fix for mozBlog and other cases where '<?xml' isn't on the very first line.
-	if ( isset( $HTTP_RAW_POST_DATA ) ) {
+	if ( isset( $HTTP_RAW_POST_DATA ) ) 
+	{
 		$HTTP_RAW_POST_DATA = trim( $HTTP_RAW_POST_DATA );
 	}
 	/** Include the bootstrap for setting up WordPress environment */
@@ -24,7 +25,7 @@
 	if ( isset( $_GET['rsd'] ) ) 
 	{ // http://cyber.law.harvard.edu/blogs/gems/tech/rsd.html
 		header( 'Content-Type: text/xml; charset=' . get_option( 'blog_charset' ), true );
-		echo '<?xml version="1.0" encoding="' . get_option( 'blog_charset' ) . '"?' . '>';
+		echo '<?xml version="1.0" enco.ding="' . get_option( 'blog_charset' ) . '"?' . '>';
 		?>
 		<rsd version="1.0" xmlns="http://archipelago.phrasewise.com/rsd">
 			<service>
@@ -57,16 +58,13 @@
 	require_once ABSPATH . WPINC . '/class-wp-xmlrpc-server.php';
 	/**
 	 * Posts submitted via the XML-RPC interface get that title
-	 *
 	 * @name post_default_title
 	 * @var string
 	 */
 	$post_default_title = '';
 	/**
 	 * Filters the class used for handling XML-RPC requests.
-	 *
 	 * @since 3.1.0
-	 *
 	 * @param string $class The name of the XML-RPC server class.
 	 */
 	$wp_xmlrpc_server_class = apply_filters( 'wp_xmlrpc_server_class', 'wp_xmlrpc_server' );
@@ -76,10 +74,8 @@
 	exit;
 	/**
 	 * logIO() - Writes logging info to a file.
-	 *
 	 * @deprecated 3.4.0 Use error_log()
 	 * @see error_log()
-	 *
 	 * @param string $io Whether input or output
 	 * @param string $msg Information describing logging reason.
 	 */
