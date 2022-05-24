@@ -5493,7 +5493,7 @@ $(document).foundation();
   if(anchor !== ''){
     $('dl.accordion > dd' + anchor).show();
   }
-});
+// });
 
 function truncate(text, length) {
   length = length || 100;
