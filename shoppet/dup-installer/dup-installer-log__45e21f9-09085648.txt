@@ -1,0 +1,738 @@
+********************************************************************************
+* DUPLICATOR-PRO: Install-Log
+* STEP-1 START @ 09:33:13
+* VERSION: 1.3.34
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+PACKAGE INFO________ CURRENT SERVER                         |ORIGINAL SERVER
+PHP VERSION_________: 7.4.5                                 |7.4.29
+OS__________________: WINNT                                 |WINNT
+CREATED_____________: 2020-07-09 08:56:48
+WP VERSION__________: 5.4.2
+DUP VERSION_________: 1.3.34
+DB__________________: 10.4.11
+DB TABLES___________: 50
+DB ROWS_____________: 8,297
+DB FILE SIZE________: 6.95MB
+********************************************************************************
+SERVER INFO
+PHP_________________: 7.4.29 | SAPI: apache2handler
+PHP MEMORY__________: 4294967296 | SUHOSIN: disabled
+SERVER______________: Apache/2.4.53 (Win64) OpenSSL/1.1.1n PHP/7.4.29
+DOC ROOT____________: "D:/xampp/htdocs/shoppet"
+DOC ROOT 755________: true
+LOG FILE 644________: true
+REQUEST URL_________: "http://localhost/shoppet/dup-installer/main.installer.php"
+********************************************************************************
+USER INPUTS
+ARCHIVE ENGINE______: "ziparchive"
+SET DIR PERMS_______: 0
+DIR PERMS VALUE_____: 644
+SET FILE PERMS______: 0
+FILE PERMS VALUE____: 755
+SAFE MODE___________: "0"
+LOGGING_____________: "1"
+CONFIG MODE_________: "NEW"
+FILE TIME___________: "current"
+********************************************************************************
+
+
+--------------------------------------
+ARCHIVE SETUP
+--------------------------------------
+NAME________________: "D:/xampp/htdocs/shoppet/20200609_shoppet_[HASH]_20200709085648_archive.zip"
+SIZE________________: 57.57MB
+
+PRE-EXTRACT-CHECKS
+- PASS: Apache '.htaccess' not found - no backup needed.
+- PASS: Microsoft IIS 'web.config' not found - no backup needed.
+- PASS: WordFence '.user.ini' not found - no backup needed.
+
+
+START ZIP FILE EXTRACTION STANDARD >>> 
+
+--------------------------------------
+ARCHIVE SETUP
+--------------------------------------
+NAME________________: "D:/xampp/htdocs/shoppet/20200609_shoppet_[HASH]_20200709085648_archive.zip"
+SIZE________________: 57.57MBFile timestamp set to Current: 2022-04-28 09:33:48
+<<< ZipArchive Unzip Complete: true
+--------------------------------------
+POST-EXTACT-CHECKS
+--------------------------------------
+
+PERMISSION UPDATES: None Applied
+
+STEP-1 COMPLETE @ 09:33:48 - RUNTIME: 35.1304 sec.
+
+
+
+********************************************************************************
+* DUPLICATOR-LITE INSTALL-LOG
+* STEP-2 START @ 09:34:34
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+VIEW MODE___________: "basic"
+DB ACTION___________: "create"
+DB HOST_____________: "**OBSCURED**"
+DB NAME_____________: "**OBSCURED**"
+DB PASS_____________: "**OBSCURED**"
+DB PORT_____________: "**OBSCURED**"
+NON-BREAKING SPACES_: false
+MYSQL MODE__________: "DEFAULT"
+MYSQL MODE OPTS_____: ""
+CHARSET_____________: "utf8"
+COLLATE_____________: "utf8_general_ci"
+COLLATE FB__________: false
+VIEW CREATION_______: true
+STORED PROCEDURE____: true
+********************************************************************************
+
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 10.4.24 -- Build Server: 10.4.11
+FILE SIZE:	dup-database__[HASH].sql (2.33MB)
+TIMEOUT:	5000
+MAXPACK:	1048576
+SQLMODE:	NO_ZERO_IN_DATE,NO_ZERO_DATE,NO_ENGINE_SUBSTITUTION
+NEW SQL FILE:	[D:/xampp/htdocs/shoppet/dup-installer/dup-installer-data__[HASH].sql]
+COLLATE FB:	Off
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+DB VIEWS:	enabled
+DB PROCEDURES:	enabled
+ERRORS FOUND:	0
+DROPPED TABLES:	0
+RENAMED TABLES:	0
+QUERIES RAN:	441
+
+wp_actionscheduler_actions: (3)
+wp_actionscheduler_claims: (0)
+wp_actionscheduler_groups: (2)
+wp_actionscheduler_logs: (9)
+wp_commentmeta: (2)
+wp_comments: (2)
+wp_duplicator_packages: (0)
+wp_links: (0)
+wp_options: (323)
+wp_postmeta: (6417)
+wp_posts: (647)
+wp_rank_math_404_logs: (5)
+wp_rank_math_internal_links: (199)
+wp_rank_math_internal_meta: (222)
+wp_rank_math_redirections: (0)
+wp_rank_math_redirections_cache: (0)
+wp_rank_math_sc_analytics: (0)
+wp_social_users: (0)
+wp_term_relationships: (378)
+wp_term_taxonomy: (63)
+wp_termmeta: (99)
+wp_terms: (63)
+wp_usermeta: (44)
+wp_users: (1)
+wp_wc_admin_note_actions: (12)
+wp_wc_admin_notes: (9)
+wp_wc_category_lookup: (24)
+wp_wc_customer_lookup: (1)
+wp_wc_download_log: (0)
+wp_wc_order_coupon_lookup: (0)
+wp_wc_order_product_lookup: (1)
+wp_wc_order_stats: (1)
+wp_wc_order_tax_lookup: (0)
+wp_wc_product_meta_lookup: (156)
+wp_wc_tax_rate_classes: (2)
+wp_wc_webhooks: (0)
+wp_woocommerce_api_keys: (0)
+wp_woocommerce_attribute_taxonomies: (1)
+wp_woocommerce_downloadable_product_permissions: (0)
+wp_woocommerce_log: (0)
+wp_woocommerce_order_itemmeta: (9)
+wp_woocommerce_order_items: (1)
+wp_woocommerce_payment_tokenmeta: (0)
+wp_woocommerce_payment_tokens: (0)
+wp_woocommerce_sessions: (1)
+wp_woocommerce_shipping_zone_locations: (0)
+wp_woocommerce_shipping_zone_methods: (0)
+wp_woocommerce_shipping_zones: (0)
+wp_woocommerce_tax_rate_locations: (0)
+wp_woocommerce_tax_rates: (0)
+Removed '106' cache/transient rows
+
+INSERT DATA RUNTIME: 1.7448 sec.
+STEP-2 COMPLETE @ 09:34:36 - RUNTIME: 1.7685 sec.
+
+====================================
+SET SEARCH AND REPLACE LIST
+====================================
+
+
+********************************************************************************
+DUPLICATOR PRO INSTALL-LOG
+STEP-3 START @ 09:34:42
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	"utf8"
+CHARSET CLIENT:	"utf8"
+********************************************************************************
+OPTIONS:
+blogname______________: "Shop Pet"
+postguid______________: false
+fullsearch____________: false
+path_old______________: "D:/xampp/htdocs/tmdt"
+path_new______________: "D:/xampp/htdocs/shoppet"
+siteurl_______________: "http://localhost:8088/shoppet"
+url_old_______________: "http://localhost:81/tmdt"
+url_new_______________: "http://localhost:8088/shoppet"
+maxSerializeStrlen____: 4000000
+replaceMail___________: false
+dbcharset_____________: "utf8"
+dbcollate_____________: "utf8_general_ci"
+wp_mail_______________: ""
+wp_nickname___________: ""
+wp_first_name_________: ""
+wp_last_name__________: ""
+ssl_admin_____________: false
+cache_wp______________: false
+cache_path____________: false
+exe_safe_mode_________: false
+config_mode___________: "NEW"
+********************************************************************************
+
+
+====================================
+RUN SEARCH AND REPLACE
+====================================
+
+EVALUATE TABLE: "wp_actionscheduler_actions"______________________[ROWS:     3][PG:   1][SCAN:text columns]
+	SEARCH  1:"D:/xampp/htdocs/tmdt" ============================> "D:/xampp/htdocs/shoppet"
+	SEARCH  2:"D:\/xampp\/htdocs\/tmdt" =========================> "D:\/xampp\/htdocs\/shoppet"
+	SEARCH  3:"D%3A%2Fxampp%2Fhtdocs%2Ftmdt" ====================> "D%3A%2Fxampp%2Fhtdocs%2Fshoppet"
+	SEARCH  4:"D:\xampp\htdocs\tmdt" ============================> "D:/xampp/htdocs/shoppet"
+	SEARCH  5:"D:\\xampp\\htdocs\\tmdt" =========================> "D:\/xampp\/htdocs\/shoppet"
+	SEARCH  6:"D%3A%5Cxampp%5Chtdocs%5Ctmdt" ====================> "D%3A%2Fxampp%2Fhtdocs%2Fshoppet"
+	SEARCH  7:"//localhost:81/tmdt" =============================> "//localhost:8088/shoppet"
+	SEARCH  8:"\/\/localhost:81\/tmdt" ==========================> "\/\/localhost:8088\/shoppet"
+	SEARCH  9:"%2F%2Flocalhost%3A81%2Ftmdt" =====================> "%2F%2Flocalhost%3A8088%2Fshoppet"
+	SEARCH 10:"https://localhost:8088/shoppet" ==================> "http://localhost:8088/shoppet"
+	SEARCH 11:"https:\/\/localhost:8088\/shoppet" ===============> "http:\/\/localhost:8088\/shoppet"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8088%2Fshoppet" ========> "http%3A%2F%2Flocalhost%3A8088%2Fshoppet"
+
+EVALUATE TABLE: "wp_actionscheduler_claims"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_actionscheduler_groups"_______________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"D:/xampp/htdocs/tmdt" ============================> "D:/xampp/htdocs/shoppet"
+	SEARCH  2:"D:\/xampp\/htdocs\/tmdt" =========================> "D:\/xampp\/htdocs\/shoppet"
+	SEARCH  3:"D%3A%2Fxampp%2Fhtdocs%2Ftmdt" ====================> "D%3A%2Fxampp%2Fhtdocs%2Fshoppet"
+	SEARCH  4:"D:\xampp\htdocs\tmdt" ============================> "D:/xampp/htdocs/shoppet"
+	SEARCH  5:"D:\\xampp\\htdocs\\tmdt" =========================> "D:\/xampp\/htdocs\/shoppet"
+	SEARCH  6:"D%3A%5Cxampp%5Chtdocs%5Ctmdt" ====================> "D%3A%2Fxampp%2Fhtdocs%2Fshoppet"
+	SEARCH  7:"//localhost:81/tmdt" =============================> "//localhost:8088/shoppet"
+	SEARCH  8:"\/\/localhost:81\/tmdt" ==========================> "\/\/localhost:8088\/shoppet"
+	SEARCH  9:"%2F%2Flocalhost%3A81%2Ftmdt" =====================> "%2F%2Flocalhost%3A8088%2Fshoppet"
+	SEARCH 10:"https://localhost:8088/shoppet" ==================> "http://localhost:8088/shoppet"
+	SEARCH 11:"https:\/\/localhost:8088\/shoppet" ===============> "http:\/\/localhost:8088\/shoppet"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8088%2Fshoppet" ========> "http%3A%2F%2Flocalhost%3A8088%2Fshoppet"
+
+EVALUATE TABLE: "wp_actionscheduler_logs"_________________________[ROWS:     9][PG:   1][SCAN:text columns]
+	SEARCH  1:"D:/xampp/htdocs/tmdt" ============================> "D:/xampp/htdocs/shoppet"
+	SEARCH  2:"D:\/xampp\/htdocs\/tmdt" =========================> "D:\/xampp\/htdocs\/shoppet"
+	SEARCH  3:"D%3A%2Fxampp%2Fhtdocs%2Ftmdt" ====================> "D%3A%2Fxampp%2Fhtdocs%2Fshoppet"
+	SEARCH  4:"D:\xampp\htdocs\tmdt" ============================> "D:/xampp/htdocs/shoppet"
+	SEARCH  5:"D:\\xampp\\htdocs\\tmdt" =========================> "D:\/xampp\/htdocs\/shoppet"
+	SEARCH  6:"D%3A%5Cxampp%5Chtdocs%5Ctmdt" ====================> "D%3A%2Fxampp%2Fhtdocs%2Fshoppet"
+	SEARCH  7:"//localhost:81/tmdt" =============================> "//localhost:8088/shoppet"
+	SEARCH  8:"\/\/localhost:81\/tmdt" ==========================> "\/\/localhost:8088\/shoppet"
+	SEARCH  9:"%2F%2Flocalhost%3A81%2Ftmdt" =====================> "%2F%2Flocalhost%3A8088%2Fshoppet"
+	SEARCH 10:"https://localhost:8088/shoppet" ==================> "http://localhost:8088/shoppet"
+	SEARCH 11:"https:\/\/localhost:8088\/shoppet" ===============> "http:\/\/localhost:8088\/shoppet"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8088%2Fshoppet" ========> "http%3A%2F%2Flocalhost%3A8088%2Fshoppet"
+
+EVALUATE TABLE: "wp_commentmeta"__________________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"D:/xampp/htdocs/tmdt" ============================> "D:/xampp/htdocs/shoppet"
+	SEARCH  2:"D:\/xampp\/htdocs\/tmdt" =========================> "D:\/xampp\/htdocs\/shoppet"
+	SEARCH  3:"D%3A%2Fxampp%2Fhtdocs%2Ftmdt" ====================> "D%3A%2Fxampp%2Fhtdocs%2Fshoppet"
+	SEARCH  4:"D:\xampp\htdocs\tmdt" ============================> "D:/xampp/htdocs/shoppet"
+	SEARCH  5:"D:\\xampp\\htdocs\\tmdt" =========================> "D:\/xampp\/htdocs\/shoppet"
+	SEARCH  6:"D%3A%5Cxampp%5Chtdocs%5Ctmdt" ====================> "D%3A%2Fxampp%2Fhtdocs%2Fshoppet"
+	SEARCH  7:"//localhost:81/tmdt" =============================> "//localhost:8088/shoppet"
+	SEARCH  8:"\/\/localhost:81\/tmdt" ==========================> "\/\/localhost:8088\/shoppet"
+	SEARCH  9:"%2F%2Flocalhost%3A81%2Ftmdt" =====================> "%2F%2Flocalhost%3A8088%2Fshoppet"
+	SEARCH 10:"https://localhost:8088/shoppet" ==================> "http://localhost:8088/shoppet"
+	SEARCH 11:"https:\/\/localhost:8088\/shoppet" ===============> "http:\/\/localhost:8088\/shoppet"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8088%2Fshoppet" ========> "http%3A%2F%2Flocalhost%3A8088%2Fshoppet"
+
+EVALUATE TABLE: "wp_comments"_____________________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"D:/xampp/htdocs/tmdt" ============================> "D:/xampp/htdocs/shoppet"
+	SEARCH  2:"D:\/xampp\/htdocs\/tmdt" =========================> "D:\/xampp\/htdocs\/shoppet"
+	SEARCH  3:"D%3A%2Fxampp%2Fhtdocs%2Ftmdt" ====================> "D%3A%2Fxampp%2Fhtdocs%2Fshoppet"
+	SEARCH  4:"D:\xampp\htdocs\tmdt" ============================> "D:/xampp/htdocs/shoppet"
+	SEARCH  5:"D:\\xampp\\htdocs\\tmdt" =========================> "D:\/xampp\/htdocs\/shoppet"
+	SEARCH  6:"D%3A%5Cxampp%5Chtdocs%5Ctmdt" ====================> "D%3A%2Fxampp%2Fhtdocs%2Fshoppet"
+	SEARCH  7:"//localhost:81/tmdt" =============================> "//localhost:8088/shoppet"
+	SEARCH  8:"\/\/localhost:81\/tmdt" ==========================> "\/\/localhost:8088\/shoppet"
+	SEARCH  9:"%2F%2Flocalhost%3A81%2Ftmdt" =====================> "%2F%2Flocalhost%3A8088%2Fshoppet"
+	SEARCH 10:"https://localhost:8088/shoppet" ==================> "http://localhost:8088/shoppet"
+	SEARCH 11:"https:\/\/localhost:8088\/shoppet" ===============> "http:\/\/localhost:8088\/shoppet"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8088%2Fshoppet" ========> "http%3A%2F%2Flocalhost%3A8088%2Fshoppet"
+
+EVALUATE TABLE: "wp_duplicator_packages"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_links"________________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_options"______________________________________[ROWS:   323][PG:   1][SCAN:text columns]
+	SEARCH  1:"D:/xampp/htdocs/tmdt" ============================> "D:/xampp/htdocs/shoppet"
+	SEARCH  2:"D:\/xampp\/htdocs\/tmdt" =========================> "D:\/xampp\/htdocs\/shoppet"
+	SEARCH  3:"D%3A%2Fxampp%2Fhtdocs%2Ftmdt" ====================> "D%3A%2Fxampp%2Fhtdocs%2Fshoppet"
+	SEARCH  4:"D:\xampp\htdocs\tmdt" ============================> "D:/xampp/htdocs/shoppet"
+	SEARCH  5:"D:\\xampp\\htdocs\\tmdt" =========================> "D:\/xampp\/htdocs\/shoppet"
+	SEARCH  6:"D%3A%5Cxampp%5Chtdocs%5Ctmdt" ====================> "D%3A%2Fxampp%2Fhtdocs%2Fshoppet"
+	SEARCH  7:"//localhost:81/tmdt" =============================> "//localhost:8088/shoppet"
+	SEARCH  8:"\/\/localhost:81\/tmdt" ==========================> "\/\/localhost:8088\/shoppet"
+	SEARCH  9:"%2F%2Flocalhost%3A81%2Ftmdt" =====================> "%2F%2Flocalhost%3A8088%2Fshoppet"
+	SEARCH 10:"https://localhost:8088/shoppet" ==================> "http://localhost:8088/shoppet"
+	SEARCH 11:"https:\/\/localhost:8088\/shoppet" ===============> "http:\/\/localhost:8088\/shoppet"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8088%2Fshoppet" ========> "http%3A%2F%2Flocalhost%3A8088%2Fshoppet"
+
+EVALUATE TABLE: "wp_postmeta"_____________________________________[ROWS:  6417][PG:   2][SCAN:text columns]
+	SEARCH  1:"D:/xampp/htdocs/tmdt" ============================> "D:/xampp/htdocs/shoppet"
+	SEARCH  2:"D:\/xampp\/htdocs\/tmdt" =========================> "D:\/xampp\/htdocs\/shoppet"
+	SEARCH  3:"D%3A%2Fxampp%2Fhtdocs%2Ftmdt" ====================> "D%3A%2Fxampp%2Fhtdocs%2Fshoppet"
+	SEARCH  4:"D:\xampp\htdocs\tmdt" ============================> "D:/xampp/htdocs/shoppet"
+	SEARCH  5:"D:\\xampp\\htdocs\\tmdt" =========================> "D:\/xampp\/htdocs\/shoppet"
+	SEARCH  6:"D%3A%5Cxampp%5Chtdocs%5Ctmdt" ====================> "D%3A%2Fxampp%2Fhtdocs%2Fshoppet"
+	SEARCH  7:"//localhost:81/tmdt" =============================> "//localhost:8088/shoppet"
+	SEARCH  8:"\/\/localhost:81\/tmdt" ==========================> "\/\/localhost:8088\/shoppet"
+	SEARCH  9:"%2F%2Flocalhost%3A81%2Ftmdt" =====================> "%2F%2Flocalhost%3A8088%2Fshoppet"
+	SEARCH 10:"https://localhost:8088/shoppet" ==================> "http://localhost:8088/shoppet"
+	SEARCH 11:"https:\/\/localhost:8088\/shoppet" ===============> "http:\/\/localhost:8088\/shoppet"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8088%2Fshoppet" ========> "http%3A%2F%2Flocalhost%3A8088%2Fshoppet"
+
+EVALUATE TABLE: "wp_posts"________________________________________[ROWS:   647][PG:   1][SCAN:text columns]
+	SEARCH  1:"D:/xampp/htdocs/tmdt" ============================> "D:/xampp/htdocs/shoppet"
+	SEARCH  2:"D:\/xampp\/htdocs\/tmdt" =========================> "D:\/xampp\/htdocs\/shoppet"
+	SEARCH  3:"D%3A%2Fxampp%2Fhtdocs%2Ftmdt" ====================> "D%3A%2Fxampp%2Fhtdocs%2Fshoppet"
+	SEARCH  4:"D:\xampp\htdocs\tmdt" ============================> "D:/xampp/htdocs/shoppet"
+	SEARCH  5:"D:\\xampp\\htdocs\\tmdt" =========================> "D:\/xampp\/htdocs\/shoppet"
+	SEARCH  6:"D%3A%5Cxampp%5Chtdocs%5Ctmdt" ====================> "D%3A%2Fxampp%2Fhtdocs%2Fshoppet"
+	SEARCH  7:"//localhost:81/tmdt" =============================> "//localhost:8088/shoppet"
+	SEARCH  8:"\/\/localhost:81\/tmdt" ==========================> "\/\/localhost:8088\/shoppet"
+	SEARCH  9:"%2F%2Flocalhost%3A81%2Ftmdt" =====================> "%2F%2Flocalhost%3A8088%2Fshoppet"
+	SEARCH 10:"https://localhost:8088/shoppet" ==================> "http://localhost:8088/shoppet"
+	SEARCH 11:"https:\/\/localhost:8088\/shoppet" ===============> "http:\/\/localhost:8088\/shoppet"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8088%2Fshoppet" ========> "http%3A%2F%2Flocalhost%3A8088%2Fshoppet"
+
+EVALUATE TABLE: "wp_rank_math_404_logs"___________________________[ROWS:     5][PG:   1][SCAN:text columns]
+	SEARCH  1:"D:/xampp/htdocs/tmdt" ============================> "D:/xampp/htdocs/shoppet"
+	SEARCH  2:"D:\/xampp\/htdocs\/tmdt" =========================> "D:\/xampp\/htdocs\/shoppet"
+	SEARCH  3:"D%3A%2Fxampp%2Fhtdocs%2Ftmdt" ====================> "D%3A%2Fxampp%2Fhtdocs%2Fshoppet"
+	SEARCH  4:"D:\xampp\htdocs\tmdt" ============================> "D:/xampp/htdocs/shoppet"
+	SEARCH  5:"D:\\xampp\\htdocs\\tmdt" =========================> "D:\/xampp\/htdocs\/shoppet"
+	SEARCH  6:"D%3A%5Cxampp%5Chtdocs%5Ctmdt" ====================> "D%3A%2Fxampp%2Fhtdocs%2Fshoppet"
+	SEARCH  7:"//localhost:81/tmdt" =============================> "//localhost:8088/shoppet"
+	SEARCH  8:"\/\/localhost:81\/tmdt" ==========================> "\/\/localhost:8088\/shoppet"
+	SEARCH  9:"%2F%2Flocalhost%3A81%2Ftmdt" =====================> "%2F%2Flocalhost%3A8088%2Fshoppet"
+	SEARCH 10:"https://localhost:8088/shoppet" ==================> "http://localhost:8088/shoppet"
+	SEARCH 11:"https:\/\/localhost:8088\/shoppet" ===============> "http:\/\/localhost:8088\/shoppet"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8088%2Fshoppet" ========> "http%3A%2F%2Flocalhost%3A8088%2Fshoppet"
+
+EVALUATE TABLE: "wp_rank_math_internal_links"_____________________[ROWS:   199][PG:   1][SCAN:text columns]
+	SEARCH  1:"D:/xampp/htdocs/tmdt" ============================> "D:/xampp/htdocs/shoppet"
+	SEARCH  2:"D:\/xampp\/htdocs\/tmdt" =========================> "D:\/xampp\/htdocs\/shoppet"
+	SEARCH  3:"D%3A%2Fxampp%2Fhtdocs%2Ftmdt" ====================> "D%3A%2Fxampp%2Fhtdocs%2Fshoppet"
+	SEARCH  4:"D:\xampp\htdocs\tmdt" ============================> "D:/xampp/htdocs/shoppet"
+	SEARCH  5:"D:\\xampp\\htdocs\\tmdt" =========================> "D:\/xampp\/htdocs\/shoppet"
+	SEARCH  6:"D%3A%5Cxampp%5Chtdocs%5Ctmdt" ====================> "D%3A%2Fxampp%2Fhtdocs%2Fshoppet"
+	SEARCH  7:"//localhost:81/tmdt" =============================> "//localhost:8088/shoppet"
+	SEARCH  8:"\/\/localhost:81\/tmdt" ==========================> "\/\/localhost:8088\/shoppet"
+	SEARCH  9:"%2F%2Flocalhost%3A81%2Ftmdt" =====================> "%2F%2Flocalhost%3A8088%2Fshoppet"
+	SEARCH 10:"https://localhost:8088/shoppet" ==================> "http://localhost:8088/shoppet"
+	SEARCH 11:"https:\/\/localhost:8088\/shoppet" ===============> "http:\/\/localhost:8088\/shoppet"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8088%2Fshoppet" ========> "http%3A%2F%2Flocalhost%3A8088%2Fshoppet"
+
+EVALUATE TABLE: "wp_rank_math_internal_meta"______________________[ROWS:   222][PG:   1][SCAN:text columns]
+	SEARCH  1:"D:/xampp/htdocs/tmdt" ============================> "D:/xampp/htdocs/shoppet"
+	SEARCH  2:"D:\/xampp\/htdocs\/tmdt" =========================> "D:\/xampp\/htdocs\/shoppet"
+	SEARCH  3:"D%3A%2Fxampp%2Fhtdocs%2Ftmdt" ====================> "D%3A%2Fxampp%2Fhtdocs%2Fshoppet"
+	SEARCH  4:"D:\xampp\htdocs\tmdt" ============================> "D:/xampp/htdocs/shoppet"
+	SEARCH  5:"D:\\xampp\\htdocs\\tmdt" =========================> "D:\/xampp\/htdocs\/shoppet"
+	SEARCH  6:"D%3A%5Cxampp%5Chtdocs%5Ctmdt" ====================> "D%3A%2Fxampp%2Fhtdocs%2Fshoppet"
+	SEARCH  7:"//localhost:81/tmdt" =============================> "//localhost:8088/shoppet"
+	SEARCH  8:"\/\/localhost:81\/tmdt" ==========================> "\/\/localhost:8088\/shoppet"
+	SEARCH  9:"%2F%2Flocalhost%3A81%2Ftmdt" =====================> "%2F%2Flocalhost%3A8088%2Fshoppet"
+	SEARCH 10:"https://localhost:8088/shoppet" ==================> "http://localhost:8088/shoppet"
+	SEARCH 11:"https:\/\/localhost:8088\/shoppet" ===============> "http:\/\/localhost:8088\/shoppet"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8088%2Fshoppet" ========> "http%3A%2F%2Flocalhost%3A8088%2Fshoppet"
+
+EVALUATE TABLE: "wp_rank_math_redirections"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_rank_math_redirections_cache"_________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_rank_math_sc_analytics"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_social_users"_________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_term_relationships"___________________________[ROWS:   378][PG:   1][SCAN:text columns]
+	SEARCH  1:"D:/xampp/htdocs/tmdt" ============================> "D:/xampp/htdocs/shoppet"
+	SEARCH  2:"D:\/xampp\/htdocs\/tmdt" =========================> "D:\/xampp\/htdocs\/shoppet"
+	SEARCH  3:"D%3A%2Fxampp%2Fhtdocs%2Ftmdt" ====================> "D%3A%2Fxampp%2Fhtdocs%2Fshoppet"
+	SEARCH  4:"D:\xampp\htdocs\tmdt" ============================> "D:/xampp/htdocs/shoppet"
+	SEARCH  5:"D:\\xampp\\htdocs\\tmdt" =========================> "D:\/xampp\/htdocs\/shoppet"
+	SEARCH  6:"D%3A%5Cxampp%5Chtdocs%5Ctmdt" ====================> "D%3A%2Fxampp%2Fhtdocs%2Fshoppet"
+	SEARCH  7:"//localhost:81/tmdt" =============================> "//localhost:8088/shoppet"
+	SEARCH  8:"\/\/localhost:81\/tmdt" ==========================> "\/\/localhost:8088\/shoppet"
+	SEARCH  9:"%2F%2Flocalhost%3A81%2Ftmdt" =====================> "%2F%2Flocalhost%3A8088%2Fshoppet"
+	SEARCH 10:"https://localhost:8088/shoppet" ==================> "http://localhost:8088/shoppet"
+	SEARCH 11:"https:\/\/localhost:8088\/shoppet" ===============> "http:\/\/localhost:8088\/shoppet"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8088%2Fshoppet" ========> "http%3A%2F%2Flocalhost%3A8088%2Fshoppet"
+
+EVALUATE TABLE: "wp_term_taxonomy"________________________________[ROWS:    63][PG:   1][SCAN:text columns]
+	SEARCH  1:"D:/xampp/htdocs/tmdt" ============================> "D:/xampp/htdocs/shoppet"
+	SEARCH  2:"D:\/xampp\/htdocs\/tmdt" =========================> "D:\/xampp\/htdocs\/shoppet"
+	SEARCH  3:"D%3A%2Fxampp%2Fhtdocs%2Ftmdt" ====================> "D%3A%2Fxampp%2Fhtdocs%2Fshoppet"
+	SEARCH  4:"D:\xampp\htdocs\tmdt" ============================> "D:/xampp/htdocs/shoppet"
+	SEARCH  5:"D:\\xampp\\htdocs\\tmdt" =========================> "D:\/xampp\/htdocs\/shoppet"
+	SEARCH  6:"D%3A%5Cxampp%5Chtdocs%5Ctmdt" ====================> "D%3A%2Fxampp%2Fhtdocs%2Fshoppet"
+	SEARCH  7:"//localhost:81/tmdt" =============================> "//localhost:8088/shoppet"
+	SEARCH  8:"\/\/localhost:81\/tmdt" ==========================> "\/\/localhost:8088\/shoppet"
+	SEARCH  9:"%2F%2Flocalhost%3A81%2Ftmdt" =====================> "%2F%2Flocalhost%3A8088%2Fshoppet"
+	SEARCH 10:"https://localhost:8088/shoppet" ==================> "http://localhost:8088/shoppet"
+	SEARCH 11:"https:\/\/localhost:8088\/shoppet" ===============> "http:\/\/localhost:8088\/shoppet"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8088%2Fshoppet" ========> "http%3A%2F%2Flocalhost%3A8088%2Fshoppet"
+
+EVALUATE TABLE: "wp_termmeta"_____________________________________[ROWS:    99][PG:   1][SCAN:text columns]
+	SEARCH  1:"D:/xampp/htdocs/tmdt" ============================> "D:/xampp/htdocs/shoppet"
+	SEARCH  2:"D:\/xampp\/htdocs\/tmdt" =========================> "D:\/xampp\/htdocs\/shoppet"
+	SEARCH  3:"D%3A%2Fxampp%2Fhtdocs%2Ftmdt" ====================> "D%3A%2Fxampp%2Fhtdocs%2Fshoppet"
+	SEARCH  4:"D:\xampp\htdocs\tmdt" ============================> "D:/xampp/htdocs/shoppet"
+	SEARCH  5:"D:\\xampp\\htdocs\\tmdt" =========================> "D:\/xampp\/htdocs\/shoppet"
+	SEARCH  6:"D%3A%5Cxampp%5Chtdocs%5Ctmdt" ====================> "D%3A%2Fxampp%2Fhtdocs%2Fshoppet"
+	SEARCH  7:"//localhost:81/tmdt" =============================> "//localhost:8088/shoppet"
+	SEARCH  8:"\/\/localhost:81\/tmdt" ==========================> "\/\/localhost:8088\/shoppet"
+	SEARCH  9:"%2F%2Flocalhost%3A81%2Ftmdt" =====================> "%2F%2Flocalhost%3A8088%2Fshoppet"
+	SEARCH 10:"https://localhost:8088/shoppet" ==================> "http://localhost:8088/shoppet"
+	SEARCH 11:"https:\/\/localhost:8088\/shoppet" ===============> "http:\/\/localhost:8088\/shoppet"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8088%2Fshoppet" ========> "http%3A%2F%2Flocalhost%3A8088%2Fshoppet"
+
+EVALUATE TABLE: "wp_terms"________________________________________[ROWS:    63][PG:   1][SCAN:text columns]
+	SEARCH  1:"D:/xampp/htdocs/tmdt" ============================> "D:/xampp/htdocs/shoppet"
+	SEARCH  2:"D:\/xampp\/htdocs\/tmdt" =========================> "D:\/xampp\/htdocs\/shoppet"
+	SEARCH  3:"D%3A%2Fxampp%2Fhtdocs%2Ftmdt" ====================> "D%3A%2Fxampp%2Fhtdocs%2Fshoppet"
+	SEARCH  4:"D:\xampp\htdocs\tmdt" ============================> "D:/xampp/htdocs/shoppet"
+	SEARCH  5:"D:\\xampp\\htdocs\\tmdt" =========================> "D:\/xampp\/htdocs\/shoppet"
+	SEARCH  6:"D%3A%5Cxampp%5Chtdocs%5Ctmdt" ====================> "D%3A%2Fxampp%2Fhtdocs%2Fshoppet"
+	SEARCH  7:"//localhost:81/tmdt" =============================> "//localhost:8088/shoppet"
+	SEARCH  8:"\/\/localhost:81\/tmdt" ==========================> "\/\/localhost:8088\/shoppet"
+	SEARCH  9:"%2F%2Flocalhost%3A81%2Ftmdt" =====================> "%2F%2Flocalhost%3A8088%2Fshoppet"
+	SEARCH 10:"https://localhost:8088/shoppet" ==================> "http://localhost:8088/shoppet"
+	SEARCH 11:"https:\/\/localhost:8088\/shoppet" ===============> "http:\/\/localhost:8088\/shoppet"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8088%2Fshoppet" ========> "http%3A%2F%2Flocalhost%3A8088%2Fshoppet"
+
+EVALUATE TABLE: "wp_usermeta"_____________________________________[ROWS:    44][PG:   1][SCAN:text columns]
+	SEARCH  1:"D:/xampp/htdocs/tmdt" ============================> "D:/xampp/htdocs/shoppet"
+	SEARCH  2:"D:\/xampp\/htdocs\/tmdt" =========================> "D:\/xampp\/htdocs\/shoppet"
+	SEARCH  3:"D%3A%2Fxampp%2Fhtdocs%2Ftmdt" ====================> "D%3A%2Fxampp%2Fhtdocs%2Fshoppet"
+	SEARCH  4:"D:\xampp\htdocs\tmdt" ============================> "D:/xampp/htdocs/shoppet"
+	SEARCH  5:"D:\\xampp\\htdocs\\tmdt" =========================> "D:\/xampp\/htdocs\/shoppet"
+	SEARCH  6:"D%3A%5Cxampp%5Chtdocs%5Ctmdt" ====================> "D%3A%2Fxampp%2Fhtdocs%2Fshoppet"
+	SEARCH  7:"//localhost:81/tmdt" =============================> "//localhost:8088/shoppet"
+	SEARCH  8:"\/\/localhost:81\/tmdt" ==========================> "\/\/localhost:8088\/shoppet"
+	SEARCH  9:"%2F%2Flocalhost%3A81%2Ftmdt" =====================> "%2F%2Flocalhost%3A8088%2Fshoppet"
+	SEARCH 10:"https://localhost:8088/shoppet" ==================> "http://localhost:8088/shoppet"
+	SEARCH 11:"https:\/\/localhost:8088\/shoppet" ===============> "http:\/\/localhost:8088\/shoppet"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8088%2Fshoppet" ========> "http%3A%2F%2Flocalhost%3A8088%2Fshoppet"
+
+EVALUATE TABLE: "wp_users"________________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"D:/xampp/htdocs/tmdt" ============================> "D:/xampp/htdocs/shoppet"
+	SEARCH  2:"D:\/xampp\/htdocs\/tmdt" =========================> "D:\/xampp\/htdocs\/shoppet"
+	SEARCH  3:"D%3A%2Fxampp%2Fhtdocs%2Ftmdt" ====================> "D%3A%2Fxampp%2Fhtdocs%2Fshoppet"
+	SEARCH  4:"D:\xampp\htdocs\tmdt" ============================> "D:/xampp/htdocs/shoppet"
+	SEARCH  5:"D:\\xampp\\htdocs\\tmdt" =========================> "D:\/xampp\/htdocs\/shoppet"
+	SEARCH  6:"D%3A%5Cxampp%5Chtdocs%5Ctmdt" ====================> "D%3A%2Fxampp%2Fhtdocs%2Fshoppet"
+	SEARCH  7:"//localhost:81/tmdt" =============================> "//localhost:8088/shoppet"
+	SEARCH  8:"\/\/localhost:81\/tmdt" ==========================> "\/\/localhost:8088\/shoppet"
+	SEARCH  9:"%2F%2Flocalhost%3A81%2Ftmdt" =====================> "%2F%2Flocalhost%3A8088%2Fshoppet"
+	SEARCH 10:"https://localhost:8088/shoppet" ==================> "http://localhost:8088/shoppet"
+	SEARCH 11:"https:\/\/localhost:8088\/shoppet" ===============> "http:\/\/localhost:8088\/shoppet"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8088%2Fshoppet" ========> "http%3A%2F%2Flocalhost%3A8088%2Fshoppet"
+
+EVALUATE TABLE: "wp_wc_admin_note_actions"________________________[ROWS:    12][PG:   1][SCAN:text columns]
+	SEARCH  1:"D:/xampp/htdocs/tmdt" ============================> "D:/xampp/htdocs/shoppet"
+	SEARCH  2:"D:\/xampp\/htdocs\/tmdt" =========================> "D:\/xampp\/htdocs\/shoppet"
+	SEARCH  3:"D%3A%2Fxampp%2Fhtdocs%2Ftmdt" ====================> "D%3A%2Fxampp%2Fhtdocs%2Fshoppet"
+	SEARCH  4:"D:\xampp\htdocs\tmdt" ============================> "D:/xampp/htdocs/shoppet"
+	SEARCH  5:"D:\\xampp\\htdocs\\tmdt" =========================> "D:\/xampp\/htdocs\/shoppet"
+	SEARCH  6:"D%3A%5Cxampp%5Chtdocs%5Ctmdt" ====================> "D%3A%2Fxampp%2Fhtdocs%2Fshoppet"
+	SEARCH  7:"//localhost:81/tmdt" =============================> "//localhost:8088/shoppet"
+	SEARCH  8:"\/\/localhost:81\/tmdt" ==========================> "\/\/localhost:8088\/shoppet"
+	SEARCH  9:"%2F%2Flocalhost%3A81%2Ftmdt" =====================> "%2F%2Flocalhost%3A8088%2Fshoppet"
+	SEARCH 10:"https://localhost:8088/shoppet" ==================> "http://localhost:8088/shoppet"
+	SEARCH 11:"https:\/\/localhost:8088\/shoppet" ===============> "http:\/\/localhost:8088\/shoppet"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8088%2Fshoppet" ========> "http%3A%2F%2Flocalhost%3A8088%2Fshoppet"
+
+EVALUATE TABLE: "wp_wc_admin_notes"_______________________________[ROWS:     9][PG:   1][SCAN:text columns]
+	SEARCH  1:"D:/xampp/htdocs/tmdt" ============================> "D:/xampp/htdocs/shoppet"
+	SEARCH  2:"D:\/xampp\/htdocs\/tmdt" =========================> "D:\/xampp\/htdocs\/shoppet"
+	SEARCH  3:"D%3A%2Fxampp%2Fhtdocs%2Ftmdt" ====================> "D%3A%2Fxampp%2Fhtdocs%2Fshoppet"
+	SEARCH  4:"D:\xampp\htdocs\tmdt" ============================> "D:/xampp/htdocs/shoppet"
+	SEARCH  5:"D:\\xampp\\htdocs\\tmdt" =========================> "D:\/xampp\/htdocs\/shoppet"
+	SEARCH  6:"D%3A%5Cxampp%5Chtdocs%5Ctmdt" ====================> "D%3A%2Fxampp%2Fhtdocs%2Fshoppet"
+	SEARCH  7:"//localhost:81/tmdt" =============================> "//localhost:8088/shoppet"
+	SEARCH  8:"\/\/localhost:81\/tmdt" ==========================> "\/\/localhost:8088\/shoppet"
+	SEARCH  9:"%2F%2Flocalhost%3A81%2Ftmdt" =====================> "%2F%2Flocalhost%3A8088%2Fshoppet"
+	SEARCH 10:"https://localhost:8088/shoppet" ==================> "http://localhost:8088/shoppet"
+	SEARCH 11:"https:\/\/localhost:8088\/shoppet" ===============> "http:\/\/localhost:8088\/shoppet"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8088%2Fshoppet" ========> "http%3A%2F%2Flocalhost%3A8088%2Fshoppet"
+
+EVALUATE TABLE: "wp_wc_category_lookup"___________________________[ROWS:    24][PG:   1][SCAN:text columns]
+	SEARCH  1:"D:/xampp/htdocs/tmdt" ============================> "D:/xampp/htdocs/shoppet"
+	SEARCH  2:"D:\/xampp\/htdocs\/tmdt" =========================> "D:\/xampp\/htdocs\/shoppet"
+	SEARCH  3:"D%3A%2Fxampp%2Fhtdocs%2Ftmdt" ====================> "D%3A%2Fxampp%2Fhtdocs%2Fshoppet"
+	SEARCH  4:"D:\xampp\htdocs\tmdt" ============================> "D:/xampp/htdocs/shoppet"
+	SEARCH  5:"D:\\xampp\\htdocs\\tmdt" =========================> "D:\/xampp\/htdocs\/shoppet"
+	SEARCH  6:"D%3A%5Cxampp%5Chtdocs%5Ctmdt" ====================> "D%3A%2Fxampp%2Fhtdocs%2Fshoppet"
+	SEARCH  7:"//localhost:81/tmdt" =============================> "//localhost:8088/shoppet"
+	SEARCH  8:"\/\/localhost:81\/tmdt" ==========================> "\/\/localhost:8088\/shoppet"
+	SEARCH  9:"%2F%2Flocalhost%3A81%2Ftmdt" =====================> "%2F%2Flocalhost%3A8088%2Fshoppet"
+	SEARCH 10:"https://localhost:8088/shoppet" ==================> "http://localhost:8088/shoppet"
+	SEARCH 11:"https:\/\/localhost:8088\/shoppet" ===============> "http:\/\/localhost:8088\/shoppet"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8088%2Fshoppet" ========> "http%3A%2F%2Flocalhost%3A8088%2Fshoppet"
+
+EVALUATE TABLE: "wp_wc_customer_lookup"___________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"D:/xampp/htdocs/tmdt" ============================> "D:/xampp/htdocs/shoppet"
+	SEARCH  2:"D:\/xampp\/htdocs\/tmdt" =========================> "D:\/xampp\/htdocs\/shoppet"
+	SEARCH  3:"D%3A%2Fxampp%2Fhtdocs%2Ftmdt" ====================> "D%3A%2Fxampp%2Fhtdocs%2Fshoppet"
+	SEARCH  4:"D:\xampp\htdocs\tmdt" ============================> "D:/xampp/htdocs/shoppet"
+	SEARCH  5:"D:\\xampp\\htdocs\\tmdt" =========================> "D:\/xampp\/htdocs\/shoppet"
+	SEARCH  6:"D%3A%5Cxampp%5Chtdocs%5Ctmdt" ====================> "D%3A%2Fxampp%2Fhtdocs%2Fshoppet"
+	SEARCH  7:"//localhost:81/tmdt" =============================> "//localhost:8088/shoppet"
+	SEARCH  8:"\/\/localhost:81\/tmdt" ==========================> "\/\/localhost:8088\/shoppet"
+	SEARCH  9:"%2F%2Flocalhost%3A81%2Ftmdt" =====================> "%2F%2Flocalhost%3A8088%2Fshoppet"
+	SEARCH 10:"https://localhost:8088/shoppet" ==================> "http://localhost:8088/shoppet"
+	SEARCH 11:"https:\/\/localhost:8088\/shoppet" ===============> "http:\/\/localhost:8088\/shoppet"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8088%2Fshoppet" ========> "http%3A%2F%2Flocalhost%3A8088%2Fshoppet"
+
+EVALUATE TABLE: "wp_wc_download_log"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_order_coupon_lookup"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_order_product_lookup"______________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"D:/xampp/htdocs/tmdt" ============================> "D:/xampp/htdocs/shoppet"
+	SEARCH  2:"D:\/xampp\/htdocs\/tmdt" =========================> "D:\/xampp\/htdocs\/shoppet"
+	SEARCH  3:"D%3A%2Fxampp%2Fhtdocs%2Ftmdt" ====================> "D%3A%2Fxampp%2Fhtdocs%2Fshoppet"
+	SEARCH  4:"D:\xampp\htdocs\tmdt" ============================> "D:/xampp/htdocs/shoppet"
+	SEARCH  5:"D:\\xampp\\htdocs\\tmdt" =========================> "D:\/xampp\/htdocs\/shoppet"
+	SEARCH  6:"D%3A%5Cxampp%5Chtdocs%5Ctmdt" ====================> "D%3A%2Fxampp%2Fhtdocs%2Fshoppet"
+	SEARCH  7:"//localhost:81/tmdt" =============================> "//localhost:8088/shoppet"
+	SEARCH  8:"\/\/localhost:81\/tmdt" ==========================> "\/\/localhost:8088\/shoppet"
+	SEARCH  9:"%2F%2Flocalhost%3A81%2Ftmdt" =====================> "%2F%2Flocalhost%3A8088%2Fshoppet"
+	SEARCH 10:"https://localhost:8088/shoppet" ==================> "http://localhost:8088/shoppet"
+	SEARCH 11:"https:\/\/localhost:8088\/shoppet" ===============> "http:\/\/localhost:8088\/shoppet"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8088%2Fshoppet" ========> "http%3A%2F%2Flocalhost%3A8088%2Fshoppet"
+
+EVALUATE TABLE: "wp_wc_order_stats"_______________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"D:/xampp/htdocs/tmdt" ============================> "D:/xampp/htdocs/shoppet"
+	SEARCH  2:"D:\/xampp\/htdocs\/tmdt" =========================> "D:\/xampp\/htdocs\/shoppet"
+	SEARCH  3:"D%3A%2Fxampp%2Fhtdocs%2Ftmdt" ====================> "D%3A%2Fxampp%2Fhtdocs%2Fshoppet"
+	SEARCH  4:"D:\xampp\htdocs\tmdt" ============================> "D:/xampp/htdocs/shoppet"
+	SEARCH  5:"D:\\xampp\\htdocs\\tmdt" =========================> "D:\/xampp\/htdocs\/shoppet"
+	SEARCH  6:"D%3A%5Cxampp%5Chtdocs%5Ctmdt" ====================> "D%3A%2Fxampp%2Fhtdocs%2Fshoppet"
+	SEARCH  7:"//localhost:81/tmdt" =============================> "//localhost:8088/shoppet"
+	SEARCH  8:"\/\/localhost:81\/tmdt" ==========================> "\/\/localhost:8088\/shoppet"
+	SEARCH  9:"%2F%2Flocalhost%3A81%2Ftmdt" =====================> "%2F%2Flocalhost%3A8088%2Fshoppet"
+	SEARCH 10:"https://localhost:8088/shoppet" ==================> "http://localhost:8088/shoppet"
+	SEARCH 11:"https:\/\/localhost:8088\/shoppet" ===============> "http:\/\/localhost:8088\/shoppet"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8088%2Fshoppet" ========> "http%3A%2F%2Flocalhost%3A8088%2Fshoppet"
+
+EVALUATE TABLE: "wp_wc_order_tax_lookup"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_product_meta_lookup"_______________________[ROWS:   156][PG:   1][SCAN:text columns]
+	SEARCH  1:"D:/xampp/htdocs/tmdt" ============================> "D:/xampp/htdocs/shoppet"
+	SEARCH  2:"D:\/xampp\/htdocs\/tmdt" =========================> "D:\/xampp\/htdocs\/shoppet"
+	SEARCH  3:"D%3A%2Fxampp%2Fhtdocs%2Ftmdt" ====================> "D%3A%2Fxampp%2Fhtdocs%2Fshoppet"
+	SEARCH  4:"D:\xampp\htdocs\tmdt" ============================> "D:/xampp/htdocs/shoppet"
+	SEARCH  5:"D:\\xampp\\htdocs\\tmdt" =========================> "D:\/xampp\/htdocs\/shoppet"
+	SEARCH  6:"D%3A%5Cxampp%5Chtdocs%5Ctmdt" ====================> "D%3A%2Fxampp%2Fhtdocs%2Fshoppet"
+	SEARCH  7:"//localhost:81/tmdt" =============================> "//localhost:8088/shoppet"
+	SEARCH  8:"\/\/localhost:81\/tmdt" ==========================> "\/\/localhost:8088\/shoppet"
+	SEARCH  9:"%2F%2Flocalhost%3A81%2Ftmdt" =====================> "%2F%2Flocalhost%3A8088%2Fshoppet"
+	SEARCH 10:"https://localhost:8088/shoppet" ==================> "http://localhost:8088/shoppet"
+	SEARCH 11:"https:\/\/localhost:8088\/shoppet" ===============> "http:\/\/localhost:8088\/shoppet"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8088%2Fshoppet" ========> "http%3A%2F%2Flocalhost%3A8088%2Fshoppet"
+
+EVALUATE TABLE: "wp_wc_tax_rate_classes"__________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"D:/xampp/htdocs/tmdt" ============================> "D:/xampp/htdocs/shoppet"
+	SEARCH  2:"D:\/xampp\/htdocs\/tmdt" =========================> "D:\/xampp\/htdocs\/shoppet"
+	SEARCH  3:"D%3A%2Fxampp%2Fhtdocs%2Ftmdt" ====================> "D%3A%2Fxampp%2Fhtdocs%2Fshoppet"
+	SEARCH  4:"D:\xampp\htdocs\tmdt" ============================> "D:/xampp/htdocs/shoppet"
+	SEARCH  5:"D:\\xampp\\htdocs\\tmdt" =========================> "D:\/xampp\/htdocs\/shoppet"
+	SEARCH  6:"D%3A%5Cxampp%5Chtdocs%5Ctmdt" ====================> "D%3A%2Fxampp%2Fhtdocs%2Fshoppet"
+	SEARCH  7:"//localhost:81/tmdt" =============================> "//localhost:8088/shoppet"
+	SEARCH  8:"\/\/localhost:81\/tmdt" ==========================> "\/\/localhost:8088\/shoppet"
+	SEARCH  9:"%2F%2Flocalhost%3A81%2Ftmdt" =====================> "%2F%2Flocalhost%3A8088%2Fshoppet"
+	SEARCH 10:"https://localhost:8088/shoppet" ==================> "http://localhost:8088/shoppet"
+	SEARCH 11:"https:\/\/localhost:8088\/shoppet" ===============> "http:\/\/localhost:8088\/shoppet"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8088%2Fshoppet" ========> "http%3A%2F%2Flocalhost%3A8088%2Fshoppet"
+
+EVALUATE TABLE: "wp_wc_webhooks"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_api_keys"_________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_attribute_taxonomies"_____________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"D:/xampp/htdocs/tmdt" ============================> "D:/xampp/htdocs/shoppet"
+	SEARCH  2:"D:\/xampp\/htdocs\/tmdt" =========================> "D:\/xampp\/htdocs\/shoppet"
+	SEARCH  3:"D%3A%2Fxampp%2Fhtdocs%2Ftmdt" ====================> "D%3A%2Fxampp%2Fhtdocs%2Fshoppet"
+	SEARCH  4:"D:\xampp\htdocs\tmdt" ============================> "D:/xampp/htdocs/shoppet"
+	SEARCH  5:"D:\\xampp\\htdocs\\tmdt" =========================> "D:\/xampp\/htdocs\/shoppet"
+	SEARCH  6:"D%3A%5Cxampp%5Chtdocs%5Ctmdt" ====================> "D%3A%2Fxampp%2Fhtdocs%2Fshoppet"
+	SEARCH  7:"//localhost:81/tmdt" =============================> "//localhost:8088/shoppet"
+	SEARCH  8:"\/\/localhost:81\/tmdt" ==========================> "\/\/localhost:8088\/shoppet"
+	SEARCH  9:"%2F%2Flocalhost%3A81%2Ftmdt" =====================> "%2F%2Flocalhost%3A8088%2Fshoppet"
+	SEARCH 10:"https://localhost:8088/shoppet" ==================> "http://localhost:8088/shoppet"
+	SEARCH 11:"https:\/\/localhost:8088\/shoppet" ===============> "http:\/\/localhost:8088\/shoppet"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8088%2Fshoppet" ========> "http%3A%2F%2Flocalhost%3A8088%2Fshoppet"
+
+EVALUATE TABLE: "wp_woocommerce_downloadable_product_permissions"_[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_log"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_order_itemmeta"___________________[ROWS:     9][PG:   1][SCAN:text columns]
+	SEARCH  1:"D:/xampp/htdocs/tmdt" ============================> "D:/xampp/htdocs/shoppet"
+	SEARCH  2:"D:\/xampp\/htdocs\/tmdt" =========================> "D:\/xampp\/htdocs\/shoppet"
+	SEARCH  3:"D%3A%2Fxampp%2Fhtdocs%2Ftmdt" ====================> "D%3A%2Fxampp%2Fhtdocs%2Fshoppet"
+	SEARCH  4:"D:\xampp\htdocs\tmdt" ============================> "D:/xampp/htdocs/shoppet"
+	SEARCH  5:"D:\\xampp\\htdocs\\tmdt" =========================> "D:\/xampp\/htdocs\/shoppet"
+	SEARCH  6:"D%3A%5Cxampp%5Chtdocs%5Ctmdt" ====================> "D%3A%2Fxampp%2Fhtdocs%2Fshoppet"
+	SEARCH  7:"//localhost:81/tmdt" =============================> "//localhost:8088/shoppet"
+	SEARCH  8:"\/\/localhost:81\/tmdt" ==========================> "\/\/localhost:8088\/shoppet"
+	SEARCH  9:"%2F%2Flocalhost%3A81%2Ftmdt" =====================> "%2F%2Flocalhost%3A8088%2Fshoppet"
+	SEARCH 10:"https://localhost:8088/shoppet" ==================> "http://localhost:8088/shoppet"
+	SEARCH 11:"https:\/\/localhost:8088\/shoppet" ===============> "http:\/\/localhost:8088\/shoppet"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8088%2Fshoppet" ========> "http%3A%2F%2Flocalhost%3A8088%2Fshoppet"
+
+EVALUATE TABLE: "wp_woocommerce_order_items"______________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"D:/xampp/htdocs/tmdt" ============================> "D:/xampp/htdocs/shoppet"
+	SEARCH  2:"D:\/xampp\/htdocs\/tmdt" =========================> "D:\/xampp\/htdocs\/shoppet"
+	SEARCH  3:"D%3A%2Fxampp%2Fhtdocs%2Ftmdt" ====================> "D%3A%2Fxampp%2Fhtdocs%2Fshoppet"
+	SEARCH  4:"D:\xampp\htdocs\tmdt" ============================> "D:/xampp/htdocs/shoppet"
+	SEARCH  5:"D:\\xampp\\htdocs\\tmdt" =========================> "D:\/xampp\/htdocs\/shoppet"
+	SEARCH  6:"D%3A%5Cxampp%5Chtdocs%5Ctmdt" ====================> "D%3A%2Fxampp%2Fhtdocs%2Fshoppet"
+	SEARCH  7:"//localhost:81/tmdt" =============================> "//localhost:8088/shoppet"
+	SEARCH  8:"\/\/localhost:81\/tmdt" ==========================> "\/\/localhost:8088\/shoppet"
+	SEARCH  9:"%2F%2Flocalhost%3A81%2Ftmdt" =====================> "%2F%2Flocalhost%3A8088%2Fshoppet"
+	SEARCH 10:"https://localhost:8088/shoppet" ==================> "http://localhost:8088/shoppet"
+	SEARCH 11:"https:\/\/localhost:8088\/shoppet" ===============> "http:\/\/localhost:8088\/shoppet"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8088%2Fshoppet" ========> "http%3A%2F%2Flocalhost%3A8088%2Fshoppet"
+
+EVALUATE TABLE: "wp_woocommerce_payment_tokenmeta"________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_payment_tokens"___________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_sessions"_________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"D:/xampp/htdocs/tmdt" ============================> "D:/xampp/htdocs/shoppet"
+	SEARCH  2:"D:\/xampp\/htdocs\/tmdt" =========================> "D:\/xampp\/htdocs\/shoppet"
+	SEARCH  3:"D%3A%2Fxampp%2Fhtdocs%2Ftmdt" ====================> "D%3A%2Fxampp%2Fhtdocs%2Fshoppet"
+	SEARCH  4:"D:\xampp\htdocs\tmdt" ============================> "D:/xampp/htdocs/shoppet"
+	SEARCH  5:"D:\\xampp\\htdocs\\tmdt" =========================> "D:\/xampp\/htdocs\/shoppet"
+	SEARCH  6:"D%3A%5Cxampp%5Chtdocs%5Ctmdt" ====================> "D%3A%2Fxampp%2Fhtdocs%2Fshoppet"
+	SEARCH  7:"//localhost:81/tmdt" =============================> "//localhost:8088/shoppet"
+	SEARCH  8:"\/\/localhost:81\/tmdt" ==========================> "\/\/localhost:8088\/shoppet"
+	SEARCH  9:"%2F%2Flocalhost%3A81%2Ftmdt" =====================> "%2F%2Flocalhost%3A8088%2Fshoppet"
+	SEARCH 10:"https://localhost:8088/shoppet" ==================> "http://localhost:8088/shoppet"
+	SEARCH 11:"https:\/\/localhost:8088\/shoppet" ===============> "http:\/\/localhost:8088\/shoppet"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8088%2Fshoppet" ========> "http%3A%2F%2Flocalhost%3A8088%2Fshoppet"
+
+EVALUATE TABLE: "wp_woocommerce_shipping_zone_locations"__________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_shipping_zone_methods"____________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_shipping_zones"___________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_tax_rate_locations"_______________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_tax_rates"________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+--------------------------------------
+SCANNED:	Tables:50 	|	 Rows:8697 	|	 Cells:48757 
+UPDATED:	Tables:7 	|	 Rows:740 	|	 Cells:752 
+ERRORS:		0 
+RUNTIME:	0.631200 sec
+
+====================================
+REMOVE LICENSE KEY
+====================================
+
+====================================
+CREATE NEW ADMIN USER
+====================================
+
+====================================
+CONFIGURATION FILE UPDATES
+====================================
+	UPDATE DB_NAME ""shoppet""
+	UPDATE DB_USER ""root""
+	UPDATE DB_PASSWORD "** OBSCURED **"
+	UPDATE DB_HOST ""localhost""
+	REMOVE WPCACHEHOME
+	
+*** UPDATED WP CONFIG FILE ***
+
+====================================
+HTACCESS UPDATE MODE: "NEW"
+====================================
+- PASS: Successfully created a new .htaccess file.
+- PASS: Existing Apache '.htaccess__[HASH]' was removed
+
+====================================
+GENERAL UPDATES & CLEANUP
+====================================
+
+====================================
+DEACTIVATE PLUGINS CHECK
+====================================
+Deactivated plugins list here: Array
+(
+    [0] => really-simple-ssl/rlrsssl-really-simple-ssl.php
+    [1] => simple-google-recaptcha/simple-google-recaptcha.php
+    [2] => js_composer/js_composer.php
+)
+
+
+====================================
+NOTICES TEST
+====================================
+No General Notices Found
+
+
+====================================
+CLEANUP TMP FILES
+====================================
+
+====================================
+FINAL REPORT NOTICES
+====================================
+
+STEP-3 COMPLETE @ 09:34:43 - RUNTIME: 0.7264 sec. 
+
+
+====================================
+FINAL REPORT NOTICES LIST
+====================================
+-----------------------
+[INFO] No general notices
+	SECTIONS: general
+
+-----------------------
+[INFO] No errors in database
+	SECTIONS: database
+
+-----------------------
+[INFO] No search and replace data errors
+	SECTIONS: search_replace
+
+-----------------------
+[INFO] No files extraction errors
+	SECTIONS: files
+
+====================================

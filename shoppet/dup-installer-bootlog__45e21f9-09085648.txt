@@ -1,0 +1,140 @@
+[Apr 28 09:32:45] 
+[Apr 28 09:32:45] ==DUPLICATOR INSTALLER BOOTSTRAP v1.3.34==
+[Apr 28 09:32:45] ----------------------------------------------------
+[Apr 28 09:32:45] Installer bootstrap start
+[Apr 28 09:32:45] Ready to extract the installer
+[Apr 28 09:32:45] Checking permission of destination folder
+[Apr 28 09:32:45] ZipArchive exists so using that
+[Apr 28 09:32:45] Successfully opened archive file.
+[Apr 28 09:32:45] Extracting all files from archive within dup-installer
+[Apr 28 09:32:45] Success: dup-installer/dup-database__[HASH].sql >>> D:\xampp\htdocs\shoppet
+[Apr 28 09:32:45] Success: dup-installer/dup-scan__[HASH].json >>> D:\xampp\htdocs\shoppet
+[Apr 28 09:32:45] Success: dup-installer/assets/font-awesome/css/all.min.css >>> D:\xampp\htdocs\shoppet
+[Apr 28 09:32:45] Success: dup-installer/assets/font-awesome/css/index.php >>> D:\xampp\htdocs\shoppet
+[Apr 28 09:32:45] Success: dup-installer/assets/font-awesome/index.php >>> D:\xampp\htdocs\shoppet
+[Apr 28 09:32:45] Success: dup-installer/assets/font-awesome/webfonts/fa-brands-400.eot >>> D:\xampp\htdocs\shoppet
+[Apr 28 09:32:45] Success: dup-installer/assets/font-awesome/webfonts/fa-brands-400.ttf >>> D:\xampp\htdocs\shoppet
+[Apr 28 09:32:45] Success: dup-installer/assets/font-awesome/webfonts/fa-brands-400.woff >>> D:\xampp\htdocs\shoppet
+[Apr 28 09:32:45] Success: dup-installer/assets/font-awesome/webfonts/fa-brands-400.woff2 >>> D:\xampp\htdocs\shoppet
+[Apr 28 09:32:45] Success: dup-installer/assets/font-awesome/webfonts/fa-regular-400.eot >>> D:\xampp\htdocs\shoppet
+[Apr 28 09:32:45] Success: dup-installer/assets/font-awesome/webfonts/fa-regular-400.ttf >>> D:\xampp\htdocs\shoppet
+[Apr 28 09:32:45] Success: dup-installer/assets/font-awesome/webfonts/fa-regular-400.woff >>> D:\xampp\htdocs\shoppet
+[Apr 28 09:32:45] Success: dup-installer/assets/font-awesome/webfonts/fa-regular-400.woff2 >>> D:\xampp\htdocs\shoppet
+[Apr 28 09:32:45] Success: dup-installer/assets/font-awesome/webfonts/fa-solid-900.eot >>> D:\xampp\htdocs\shoppet
+[Apr 28 09:32:45] Success: dup-installer/assets/font-awesome/webfonts/fa-solid-900.ttf >>> D:\xampp\htdocs\shoppet
+[Apr 28 09:32:45] Success: dup-installer/assets/font-awesome/webfonts/fa-solid-900.woff >>> D:\xampp\htdocs\shoppet
+[Apr 28 09:32:45] Success: dup-installer/assets/font-awesome/webfonts/fa-solid-900.woff2 >>> D:\xampp\htdocs\shoppet
+[Apr 28 09:32:45] Success: dup-installer/assets/font-awesome/webfonts/index.php >>> D:\xampp\htdocs\shoppet
+[Apr 28 09:32:45] Success: dup-installer/assets/images/index.php >>> D:\xampp\htdocs\shoppet
+[Apr 28 09:32:45] Success: dup-installer/assets/images/ui-bg_glass_55_fbf9ee_1x400.png >>> D:\xampp\htdocs\shoppet
+[Apr 28 09:32:45] Success: dup-installer/assets/images/ui-bg_glass_65_ffffff_1x400.png >>> D:\xampp\htdocs\shoppet
+[Apr 28 09:32:45] Success: dup-installer/assets/images/ui-bg_glass_75_dadada_1x400.png >>> D:\xampp\htdocs\shoppet
+[Apr 28 09:32:45] Success: dup-installer/assets/images/ui-bg_glass_75_e6e6e6_1x400.png >>> D:\xampp\htdocs\shoppet
+[Apr 28 09:32:45] Success: dup-installer/assets/images/ui-bg_glass_95_fef1ec_1x400.png >>> D:\xampp\htdocs\shoppet
+[Apr 28 09:32:45] Success: dup-installer/assets/images/ui-bg_highlight-soft_75_cccccc_1x100.png >>> D:\xampp\htdocs\shoppet
+[Apr 28 09:32:45] Success: dup-installer/assets/images/ui-icons_222222_256x240.png >>> D:\xampp\htdocs\shoppet
+[Apr 28 09:32:45] Success: dup-installer/assets/images/ui-icons_2e83ff_256x240.png >>> D:\xampp\htdocs\shoppet
+[Apr 28 09:32:45] Success: dup-installer/assets/images/ui-icons_454545_256x240.png >>> D:\xampp\htdocs\shoppet
+[Apr 28 09:32:45] Success: dup-installer/assets/images/ui-icons_888888_256x240.png >>> D:\xampp\htdocs\shoppet
+[Apr 28 09:32:45] Success: dup-installer/assets/images/ui-icons_cd0a0a_256x240.png >>> D:\xampp\htdocs\shoppet
+[Apr 28 09:32:45] Success: dup-installer/assets/inc.css.php >>> D:\xampp\htdocs\shoppet
+[Apr 28 09:32:45] Success: dup-installer/assets/inc.js.php >>> D:\xampp\htdocs\shoppet
+[Apr 28 09:32:45] Success: dup-installer/assets/inc.libs.css.php >>> D:\xampp\htdocs\shoppet
+[Apr 28 09:32:45] Success: dup-installer/assets/inc.libs.js >>> D:\xampp\htdocs\shoppet
+[Apr 28 09:32:45] Success: dup-installer/assets/inc.libs.js.php >>> D:\xampp\htdocs\shoppet
+[Apr 28 09:32:45] Success: dup-installer/assets/index.php >>> D:\xampp\htdocs\shoppet
+[Apr 28 09:32:45] Success: dup-installer/classes/class.crypt.php >>> D:\xampp\htdocs\shoppet
+[Apr 28 09:32:45] Success: dup-installer/classes/class.csrf.php >>> D:\xampp\htdocs\shoppet
+[Apr 28 09:32:45] Success: dup-installer/classes/class.db.php >>> D:\xampp\htdocs\shoppet
+[Apr 28 09:32:45] Success: dup-installer/classes/class.engine.php >>> D:\xampp\htdocs\shoppet
+[Apr 28 09:32:45] Success: dup-installer/classes/class.http.php >>> D:\xampp\htdocs\shoppet
+[Apr 28 09:32:45] Success: dup-installer/classes/class.installer.state.php >>> D:\xampp\htdocs\shoppet
+[Apr 28 09:32:45] Success: dup-installer/classes/class.logging.php >>> D:\xampp\htdocs\shoppet
+[Apr 28 09:32:45] Success: dup-installer/classes/class.package.php >>> D:\xampp\htdocs\shoppet
+[Apr 28 09:32:45] Success: dup-installer/classes/class.password.php >>> D:\xampp\htdocs\shoppet
+[Apr 28 09:32:45] Success: dup-installer/classes/class.s3.func.php >>> D:\xampp\htdocs\shoppet
+[Apr 28 09:32:45] Success: dup-installer/classes/class.server.php >>> D:\xampp\htdocs\shoppet
+[Apr 28 09:32:45] Success: dup-installer/classes/class.view.php >>> D:\xampp\htdocs\shoppet
+[Apr 28 09:32:45] Success: dup-installer/classes/config/class.archive.config.php >>> D:\xampp\htdocs\shoppet
+[Apr 28 09:32:45] Success: dup-installer/classes/config/class.boot.php >>> D:\xampp\htdocs\shoppet
+[Apr 28 09:32:45] Success: dup-installer/classes/config/class.conf.srv.php >>> D:\xampp\htdocs\shoppet
+[Apr 28 09:32:45] Success: dup-installer/classes/config/class.constants.php >>> D:\xampp\htdocs\shoppet
+[Apr 28 09:32:45] Success: dup-installer/classes/config/index.php >>> D:\xampp\htdocs\shoppet
+[Apr 28 09:32:45] Success: dup-installer/classes/Crypt/Base.php >>> D:\xampp\htdocs\shoppet
+[Apr 28 09:32:45] Success: dup-installer/classes/Crypt/index.php >>> D:\xampp\htdocs\shoppet
+[Apr 28 09:32:45] Success: dup-installer/classes/Crypt/Random.php >>> D:\xampp\htdocs\shoppet
+[Apr 28 09:32:45] Success: dup-installer/classes/Crypt/Rijndael.php >>> D:\xampp\htdocs\shoppet
+[Apr 28 09:32:45] Success: dup-installer/classes/index.php >>> D:\xampp\htdocs\shoppet
+[Apr 28 09:32:45] Success: dup-installer/classes/utilities/class.u.exceptions.php >>> D:\xampp\htdocs\shoppet
+[Apr 28 09:32:45] Success: dup-installer/classes/utilities/class.u.html.php >>> D:\xampp\htdocs\shoppet
+[Apr 28 09:32:45] Success: dup-installer/classes/utilities/class.u.notices.manager.php >>> D:\xampp\htdocs\shoppet
+[Apr 28 09:32:45] Success: dup-installer/classes/utilities/class.u.php >>> D:\xampp\htdocs\shoppet
+[Apr 28 09:32:45] Success: dup-installer/classes/utilities/class.u.search.reaplce.manager.php >>> D:\xampp\htdocs\shoppet
+[Apr 28 09:32:45] Success: dup-installer/classes/utilities/index.php >>> D:\xampp\htdocs\shoppet
+[Apr 28 09:32:45] Success: dup-installer/ctrls/ctrl.base.php >>> D:\xampp\htdocs\shoppet
+[Apr 28 09:32:45] Success: dup-installer/ctrls/ctrl.s1.php >>> D:\xampp\htdocs\shoppet
+[Apr 28 09:32:45] Success: dup-installer/ctrls/ctrl.s2.base.php >>> D:\xampp\htdocs\shoppet
+[Apr 28 09:32:45] Success: dup-installer/ctrls/ctrl.s2.dbinstall.php >>> D:\xampp\htdocs\shoppet
+[Apr 28 09:32:45] Success: dup-installer/ctrls/ctrl.s2.dbtest.php >>> D:\xampp\htdocs\shoppet
+[Apr 28 09:32:45] Success: dup-installer/ctrls/ctrl.s3.php >>> D:\xampp\htdocs\shoppet
+[Apr 28 09:32:45] Success: dup-installer/ctrls/index.php >>> D:\xampp\htdocs\shoppet
+[Apr 28 09:32:45] Success: dup-installer/favicon/browserconfig.xml >>> D:\xampp\htdocs\shoppet
+[Apr 28 09:32:45] Success: dup-installer/favicon/lite01_android-chrome-192x192.png >>> D:\xampp\htdocs\shoppet
+[Apr 28 09:32:45] Success: dup-installer/favicon/lite01_android-chrome-256x256.png >>> D:\xampp\htdocs\shoppet
+[Apr 28 09:32:45] Success: dup-installer/favicon/lite01_apple-touch-icon.png >>> D:\xampp\htdocs\shoppet
+[Apr 28 09:32:45] Success: dup-installer/favicon/lite01_favicon-16x16.png >>> D:\xampp\htdocs\shoppet
+[Apr 28 09:32:45] Success: dup-installer/favicon/lite01_favicon-32x32.png >>> D:\xampp\htdocs\shoppet
+[Apr 28 09:32:45] Success: dup-installer/favicon/lite01_favicon.ico >>> D:\xampp\htdocs\shoppet
+[Apr 28 09:32:45] Success: dup-installer/favicon/lite01_mstile-150x150.png >>> D:\xampp\htdocs\shoppet
+[Apr 28 09:32:45] Success: dup-installer/favicon/lite01_safari-pinned-tab.svg >>> D:\xampp\htdocs\shoppet
+[Apr 28 09:32:45] Success: dup-installer/favicon/site.webmanifest >>> D:\xampp\htdocs\shoppet
+[Apr 28 09:32:45] Success: dup-installer/index.php >>> D:\xampp\htdocs\shoppet
+[Apr 28 09:32:45] Success: dup-installer/main.installer.php >>> D:\xampp\htdocs\shoppet
+[Apr 28 09:32:45] Success: dup-installer/views/index.php >>> D:\xampp\htdocs\shoppet
+[Apr 28 09:32:45] Success: dup-installer/views/view.exception.php >>> D:\xampp\htdocs\shoppet
+[Apr 28 09:32:45] Success: dup-installer/views/view.help.php >>> D:\xampp\htdocs\shoppet
+[Apr 28 09:32:45] Success: dup-installer/views/view.init1.php >>> D:\xampp\htdocs\shoppet
+[Apr 28 09:32:45] Success: dup-installer/views/view.s1.base.php >>> D:\xampp\htdocs\shoppet
+[Apr 28 09:32:45] Success: dup-installer/views/view.s1.terms.php >>> D:\xampp\htdocs\shoppet
+[Apr 28 09:32:45] Success: dup-installer/views/view.s2.base.php >>> D:\xampp\htdocs\shoppet
+[Apr 28 09:32:45] Success: dup-installer/views/view.s2.basic.php >>> D:\xampp\htdocs\shoppet
+[Apr 28 09:32:45] Success: dup-installer/views/view.s2.cpnl.lite.php >>> D:\xampp\htdocs\shoppet
+[Apr 28 09:32:45] Success: dup-installer/views/view.s2.dbtest.php >>> D:\xampp\htdocs\shoppet
+[Apr 28 09:32:45] Success: dup-installer/views/view.s3.php >>> D:\xampp\htdocs\shoppet
+[Apr 28 09:32:45] Success: dup-installer/views/view.s4.php >>> D:\xampp\htdocs\shoppet
+[Apr 28 09:32:45] Success: dup-installer/dup-archive__[HASH].txt >>> D:\xampp\htdocs\shoppet
+[Apr 28 09:32:45] Success: dup-installer/lib/snaplib/class.snaplib.exceptions.php >>> D:\xampp\htdocs\shoppet
+[Apr 28 09:32:45] Success: dup-installer/lib/snaplib/class.snaplib.jsonSerializable.abstract.php >>> D:\xampp\htdocs\shoppet
+[Apr 28 09:32:45] Success: dup-installer/lib/snaplib/class.snaplib.logger.php >>> D:\xampp\htdocs\shoppet
+[Apr 28 09:32:45] Success: dup-installer/lib/snaplib/class.snaplib.u.io.php >>> D:\xampp\htdocs\shoppet
+[Apr 28 09:32:45] Success: dup-installer/lib/snaplib/class.snaplib.u.json.php >>> D:\xampp\htdocs\shoppet
+[Apr 28 09:32:45] Success: dup-installer/lib/snaplib/class.snaplib.u.net.php >>> D:\xampp\htdocs\shoppet
+[Apr 28 09:32:45] Success: dup-installer/lib/snaplib/class.snaplib.u.os.php >>> D:\xampp\htdocs\shoppet
+[Apr 28 09:32:45] Success: dup-installer/lib/snaplib/class.snaplib.u.stream.php >>> D:\xampp\htdocs\shoppet
+[Apr 28 09:32:45] Success: dup-installer/lib/snaplib/class.snaplib.u.string.php >>> D:\xampp\htdocs\shoppet
+[Apr 28 09:32:45] Success: dup-installer/lib/snaplib/class.snaplib.u.ui.php >>> D:\xampp\htdocs\shoppet
+[Apr 28 09:32:45] Success: dup-installer/lib/snaplib/class.snaplib.u.url.php >>> D:\xampp\htdocs\shoppet
+[Apr 28 09:32:45] Success: dup-installer/lib/snaplib/class.snaplib.u.util.php >>> D:\xampp\htdocs\shoppet
+[Apr 28 09:32:45] Success: dup-installer/lib/snaplib/class.snaplib.u.wp.php >>> D:\xampp\htdocs\shoppet
+[Apr 28 09:32:45] Success: dup-installer/lib/snaplib/index.php >>> D:\xampp\htdocs\shoppet
+[Apr 28 09:32:45] Success: dup-installer/lib/snaplib/snaplib.all.php >>> D:\xampp\htdocs\shoppet
+[Apr 28 09:32:45] Success: dup-installer/lib/snaplib/wordpress.core.files.php >>> D:\xampp\htdocs\shoppet
+[Apr 28 09:32:45] Success: dup-installer/lib/config/class.wp.config.tranformer.php >>> D:\xampp\htdocs\shoppet
+[Apr 28 09:32:45] Success: dup-installer/lib/config/class.wp.config.tranformer.src.php >>> D:\xampp\htdocs\shoppet
+[Apr 28 09:32:45] Successfully closed archive file
+[Apr 28 09:32:45] Successfully extracted with ZipArchive
+[Apr 28 09:32:45] No need to create dup-installer/.htaccess or dup-installer/.user.ini
+[Apr 28 09:32:45] ERROR:  SAPI: Unrecognized
+[Apr 28 09:32:45] Set permissions of D:/xampp/htdocs/shoppet/dup-installer to 0<br/>
+[Apr 28 09:32:45] Set permissions of D:/xampp/htdocs/shoppet/dup-installer/assets to 0<br/>
+[Apr 28 09:32:45] Set permissions of D:/xampp/htdocs/shoppet/dup-installer/classes to 0<br/>
+[Apr 28 09:32:45] Set permissions of D:/xampp/htdocs/shoppet/dup-installer/ctrls to 0<br/>
+[Apr 28 09:32:45] Set permissions of D:/xampp/htdocs/shoppet/dup-installer/favicon to 0<br/>
+[Apr 28 09:32:45] Set permissions of D:/xampp/htdocs/shoppet/dup-installer/lib to 0<br/>
+[Apr 28 09:32:45] Set permissions of D:/xampp/htdocs/shoppet/dup-installer/views to 0<br/>
+[Apr 28 09:32:45] Set permissions of D:/xampp/htdocs/shoppet/dup-installer/dup-archive__[HASH].txt to 0<br/>
+[Apr 28 09:32:45] Set permissions of D:/xampp/htdocs/shoppet/dup-installer/dup-database__[HASH].sql to 0<br/>
+[Apr 28 09:32:45] Set permissions of D:/xampp/htdocs/shoppet/dup-installer/dup-scan__[HASH].json to 0<br/>
+[Apr 28 09:32:45] Set permissions of D:/xampp/htdocs/shoppet/dup-installer/index.php to 0<br/>
+[Apr 28 09:32:45] Set permissions of D:/xampp/htdocs/shoppet/dup-installer/main.installer.php to 0<br/>
+[Apr 28 09:32:45] DONE: No detected errors so redirecting to the main installer. Main Installer URI = http://localhost:8088/shoppet/dup-installer/main.installer.php
