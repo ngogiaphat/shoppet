@@ -1,14 +1,10 @@
 const gulp = require('gulp')
 const $ = require('gulp-load-plugins')()
-
 // True if dist task is running.
 var dist = $.util.env._.indexOf('dist') > -1
 
-//
 // Scripts
-//
-
-gulp.task('webpack', function () {
+gulp.task('webpack', function(){
     return gulp.src('./app/index.js')
         .pipe($.plumber({errorHandler: $.notify.onError("Error: <%= error.message %>")}))
         .pipe($.webpack(require('./build/webpack.config')))
@@ -16,10 +12,7 @@ gulp.task('webpack', function () {
         .pipe($.notify('Scripts compiled successfully'))
 })
 
-//
 // Create template cache.
-//
-
 gulp.task('js:templates', function () {
     return gulp.src('./app/**/*.html')
         .pipe($.plumber({errorHandler: $.notify.onError("Error: <%= error.message %>")}))
@@ -29,19 +22,15 @@ gulp.task('js:templates', function () {
         .pipe($.notify('Templates compiled successfully'))
 })
 
-//
 // Styles
-//
-
-gulp.task('sass:master', function () {
+gulp.task('sass:master', function(){
     return compileCss('master')
 })
 
-gulp.task('sass:iframe', function () {
+gulp.task('sass:iframe', function(){
     return compileCss('iframe')
 })
-
-function compileCss(style) {
+function compileCss(style){
     return gulp.src('./app/' + style + '.scss')
         .pipe($.plumber({errorHandler: $.notify.onError("Error: <%= error.message %>")}))
         .pipe($.sassGlob())
@@ -52,14 +41,9 @@ function compileCss(style) {
         .pipe($.notify(style + ' css compiled successfully'))
 }
 
-//
 // Watch
-//
-
-gulp.task('watch', ['build-js', 'build-tpl', 'build-css'], function () {
-
+gulp.task('watch', ['build-js', 'build-tpl', 'build-css'], function(){
     $.livereload.listen()
-
     gulp.watch(['app/**/*.html'], ['webpack', 'build-tpl'])
     gulp.watch(['app/**/*.scss'], ['build-css'])
     gulp.watch(['app/**/*.js'], ['webpack'])
@@ -70,15 +54,10 @@ gulp.task('watch', ['build-js', 'build-tpl', 'build-css'], function () {
     gulp.watch(['assets/css/**/*.css']).on('change', $.livereload.changed)
     gulp.watch(['assets/js/**/*.js']).on('change', $.livereload.changed)
     gulp.watch(['assets/img/**/*']).on('change', $.livereload.changed)
-
 })
 
-//
 // Create plugin archive
-//
-
-gulp.task('dist', ['build-js', 'build-tpl', 'build-css'], function() {
-
+gulp.task('dist', ['build-js', 'build-tpl', 'build-css'], function(){
     return gulp.src(['**',
         '!.*',
         '!bower.json',
@@ -93,10 +72,7 @@ gulp.task('dist', ['build-js', 'build-tpl', 'build-css'], function() {
         .pipe(gulp.dest('./dist'))
 })
 
-//
 // Tasks
-//
-
 gulp.task('default',    ['watch'])
 gulp.task('build-css',  ['sass:master', 'sass:iframe'])
 gulp.task('build-js',   ['webpack'])

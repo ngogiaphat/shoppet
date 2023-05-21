@@ -1,5 +1,4 @@
 <?php
-
 return array(
 	array(
 		'title' => 'Dark',
