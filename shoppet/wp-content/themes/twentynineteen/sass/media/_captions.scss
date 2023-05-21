@@ -1,26 +1,21 @@
 .wp-caption {
 	margin-bottom: calc(1.5 * #{$size__spacing-unit});
-
 	&.aligncenter {
-
-		@include media(tablet) {
+		@include media(tablet){
 			position: relative;
-			left: calc( #{$size__site-tablet-content} / 2 );
-			transform: translateX( -50% );
+			left: calc(#{$size__site-tablet-content} / 2);
+			transform: translateX(-50%);
 		}
-
-		@include media(desktop) {
-			left: calc( #{$size__site-desktop-content} / 2 );
+		@include media(desktop){
+			left: calc(#{$size__site-desktop-content} / 2);
 		}
 	}
 }
-
-.wp-caption img[class*="wp-image-"] {
+.wp-caption img[class*="wp-image-"]{
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
 }
-
 .wp-caption-text {
 	color: $color__text-light;
 	font-size: $font__size-xs;

@@ -1,21 +1,21 @@
-(function() {
-    tinymce.PluginManager.add('ux_shortcode_insert', function( editor, url ) {
-        editor.addButton( 'ux_shortcode_insert', {
+(function(){
+    tinymce.PluginManager.add('ux_shortcode_insert', function(editor, url){
+        editor.addButton('ux_shortcode_insert', {
            text: 'Shortcodes',
             type: 'menubutton',
             tooltip: 'Add Shortcodes and Content',
             menu: [
-                 {
+                {
                     text: 'Section / Background',
-                      icon: 'icon dashicons-align-none',
-                    onclick: function() {
+                    icon: 'icon dashicons-align-none',
+                    onclick: function(){
                         ux_add_section(editor);
                     },
                 },
                 {
                     text: 'Row / Columns',
-                     icon: 'icon dashicons-text',
-                    onclick: function() {
+                    icon: 'icon dashicons-text',
+                    onclick: function(){
                         ux_add_row(editor);
                     },
                 },
@@ -23,85 +23,83 @@
                     text: 'UX Slider',
                     icon: 'icon  dashicons-images-alt2',
                     menu: [
-                                {
-                                    text: 'Simple slider',
-                                    value: '[ux_slider timer="4500" arrows="true" bullets="true" auto_slide="true" nav_color="dark"]<br> Insert slides here (UX Banner or Sections) <br>[/ux_slider]',
-                                    onclick: function(e) {
-                                        e.stopPropagation();
-                                        editor.insertContent(this.value());
-                                    }       
-                                },
-                                {
-                                    text: 'Slider with columns',
-                                    value: '[ux_slider timer="4500" arrows="true" bullets="false" auto_slide="true" nav_color="dark"]<p>[col span="1/4"] Content [/col]<br/><br>[col span="1/4"] Content [/col]<br/><br>[col span="1/4"] Content [/col]<br/><br>[col span="1/4"] Content [/col]<br/><br>[col span="1/4"] Content [/col]<br/></p>[/ux_slider]',
-                                    onclick: function(e) {
-                                        e.stopPropagation();
-                                        editor.insertContent(this.value());
-                                    }       
-                                },
-                                {
-                                    text: 'Logo / brand slider',
-                                    value: '[ux_slider height="60px" arrows="true" bullets="false" nav_color="dark" margin="0px"]<br><br/>[logo title="Logo title" img="http://imageurl" height="60px"]<br/><br/>[logo title="Logo title" img="http://imageurl" height="60px"]<br/><br/>[logo title="Logo title" img="http://imageurl" height="60px"]<br/><br/>[logo title="Logo title" img="http://imageurl" height="60px"]<br/><br/>[logo title="Logo title" img="http://imageurl" height="60px"]<br/>[logo title="Logo title" img="http://imageurl" height="60px"]<br/><br/>[logo title="Logo title" img="http://imageurl" height="60px"]<br/><br/>[/ux_slider]',
-                                    onclick: function(e) {
-                                        e.stopPropagation();
-                                        editor.insertContent(this.value());
-                                    }       
-                                },
+                            {
+                                text: 'Simple slider',
+                                value: '[ux_slider timer="4500" arrows="true" bullets="true" auto_slide="true" nav_color="dark"]<br> Insert slides here (UX Banner or Sections) <br>[/ux_slider]',
+                                onclick: function(e){
+                                    e.stopPropagation();
+                                    editor.insertContent(this.value());
+                                }       
+                            },
+                            {
+                                text: 'Slider with columns',
+                                value: '[ux_slider timer="4500" arrows="true" bullets="false" auto_slide="true" nav_color="dark"]<p>[col span="1/4"] Content [/col]<br/><br>[col span="1/4"] Content [/col]<br/><br>[col span="1/4"] Content [/col]<br/><br>[col span="1/4"] Content [/col]<br/><br>[col span="1/4"] Content [/col]<br/></p>[/ux_slider]',
+                                onclick: function(e){
+                                    e.stopPropagation();
+                                    editor.insertContent(this.value());
+                                }       
+                            },
+                            {
+                                text: 'Logo / brand slider',
+                                value: '[ux_slider height="60px" arrows="true" bullets="false" nav_color="dark" margin="0px"]<br><br/>[logo title="Logo title" img="http://imageurl" height="60px"]<br/><br/>[logo title="Logo title" img="http://imageurl" height="60px"]<br/><br/>[logo title="Logo title" img="http://imageurl" height="60px"]<br/><br/>[logo title="Logo title" img="http://imageurl" height="60px"]<br/><br/>[logo title="Logo title" img="http://imageurl" height="60px"]<br/>[logo title="Logo title" img="http://imageurl" height="60px"]<br/><br/>[logo title="Logo title" img="http://imageurl" height="60px"]<br/><br/>[/ux_slider]',
+                                onclick: function(e){
+                                    e.stopPropagation();
+                                    editor.insertContent(this.value());
+                                }       
+                            },
 
-                            ]   
+                        ]   
                 },
                 {
                     text: 'UX Banner',
                     icon: 'icon dashicons-format-image',
-                    onclick: function() {
+                    onclick: function(){
                         ux_add_uxbanner(editor);
                     },
                 },
                 {
                     text: 'Elements',
                      icon: 'icon dashicons-screenoptions',
-                    onclick: function() {
+                    onclick: function(){
                         editor.insertContent(this.value());
                     },
                     menu: [
-
                         {
                             text: 'Icon Box',
                             menu: [
-                             {
+                                {
                                     text: 'Icon Top Center',
                                     value: '[featured_box title="Title text" img="http://iconurl" img_width="" pos="center" link=""]<p>Featured box text</p>[/featured_box]',
-                                    onclick: function(e) {
+                                    onclick: function(e){
                                         e.stopPropagation();
                                         editor.insertContent(this.value());
                                     }       
                                 },
                                 {
-                                     text: 'Icon Top',
+                                    text: 'Icon Top',
                                     value: '[featured_box title="Title text" img="http://iconurl" img_width="" link=""]<p>Featured box text</p>[/featured_box]',
-                                 onclick: function(e) {
+                                    onclick: function(e){
                                         e.stopPropagation();
                                         editor.insertContent(this.value());
                                     }       
                                 },
                                 {
-                                   text: 'Icon Left',
+                                    text: 'Icon Left',
                                     value: '[featured_box title="Title text" pos="left" img="http://iconurl" img_width="" link=""]<p>Featured box text</p>[/featured_box]',
-                                   onclick: function(e) {
+                                    onclick: function(e){
                                         e.stopPropagation();
                                         editor.insertContent(this.value());
                                     }       
-                                },
-                               
+                                },                          
                             ]   
                         },
                         {
                             text: 'Button',
-                           menu: [
+                            menu: [
                                 {
                                     text: 'Button - Primary',
                                     value: '[button size="medium" style="primary"  text="Medium button" link="http://" target=""]',
-                                    onclick: function(e) {
+                                    onclick: function(e){
                                         e.stopPropagation();
                                         editor.insertContent(this.value());
                                     }       
@@ -109,31 +107,31 @@
                                 {
                                     text: 'Button - Secondary',
                                     value: '[button size="medium" style="secondary"  text="Medium button" link="http://" target=""]',
-                                    onclick: function(e) {
+                                    onclick: function(e){
                                         e.stopPropagation();
                                         editor.insertContent(this.value());
                                     }       
                                 },
-                                 {
+                                {
                                     text: 'Button - Alert',
                                     value: '[button size="medium" style="alert"  text="Medium button" link="http://" target=""]',
-                                    onclick: function(e) {
+                                    onclick: function(e){
                                         e.stopPropagation();
                                         editor.insertContent(this.value());
                                     }       
                                 },
-                                 {
+                                {
                                     text: 'Button - Success',
                                     value: '[button size="medium" style="success"  text="Medium button" link="http://"]',
-                                    onclick: function(e) {
+                                    onclick: function(e){
                                         e.stopPropagation();
                                         editor.insertContent(this.value());
                                     }       
                                 },
-                                 {
+                                {
                                     text: 'Button - White',
                                     value: '[button size="medium" style="white"  text="Medium button" link="http://"]',
-                                    onclick: function(e) {
+                                    onclick: function(e){
                                         e.stopPropagation();
                                         editor.insertContent(this.value());
                                     }       
@@ -141,7 +139,7 @@
                                  {
                                     text: 'Alt Button - Primary ',
                                     value: '[button size="medium" style="is-outline primary"  text="Medium button" link="http://" target=""]',
-                                    onclick: function(e) {
+                                    onclick: function(e){
                                         e.stopPropagation();
                                         editor.insertContent(this.value());
                                     }       
@@ -149,7 +147,7 @@
                                 {
                                     text: 'Alt Button - Secondary',
                                     value: '[button size="medium" style="is-outline secondary"  text="Medium button" link="http://" target=""]',
-                                    onclick: function(e) {
+                                    onclick: function(e){
                                         e.stopPropagation();
                                         editor.insertContent(this.value());
                                     }       
@@ -157,7 +155,7 @@
                                 {
                                     text: 'Alt button - Success',
                                     value: '[button size="medium" style="is-outline success"  text="Medium button" link="http://"]',
-                                    onclick: function(e) {
+                                    onclick: function(e){
                                         e.stopPropagation();
                                         editor.insertContent(this.value());
                                     }       
@@ -165,7 +163,7 @@
                                 {
                                     text: 'Alt button - White',
                                     value: '[button size="medium" style="is-outline white"  text="Medium button" link="http://"]',
-                                    onclick: function(e) {
+                                    onclick: function(e){
                                         e.stopPropagation();
                                         editor.insertContent(this.value());
                                     }       
@@ -175,29 +173,29 @@
                         },
                         {
                             text: 'Tabs / Accordion',
-                            onclick: function(e) {
+                            onclick: function(e){
                             },
                             menu: [
                                 {
                                     text: 'Tabs - Horizontal',
                                     value: '[tabgroup title="Tab group title"]<br>[tab title="Tab 1 Title"] Tab content [/tab]<br>[tab title="Tab 2 Title"] Tab content [/tab]<br>[tab title="Tab 3 Title"] Tab content [/tab]<br>[/tabgroup]<br>',
-                                    onclick: function(e) {
+                                    onclick: function(e){
                                         e.stopPropagation();
                                         editor.insertContent(this.value());
                                     }       
                                 },
-                                 {
+                                {
                                     text: 'Tabs - Horizontal Centered',
                                     value: '[tabgroup style="center" title=""]<br>[tab title="Tab 1 Title"] Tab content [/tab]<br>[tab title="Tab 2 Title"] Tab content [/tab]<br>[tab title="Tab 3 Title"] Tab content [/tab]<br>[/tabgroup]<br>',
-                                    onclick: function(e) {
+                                    onclick: function(e){
                                         e.stopPropagation();
                                         editor.insertContent(this.value());
                                     }       
                                 },
-                                 {
+                                {
                                     text: 'Tabs - Horizontal Pills',
                                     value: '[tabgroup style="pills" title=""]<br>[tab title="Tab 1 Title"] Tab content [/tab]<br>[tab title="Tab 2 Title"] Tab content [/tab]<br>[tab title="Tab 3 Title"] Tab content [/tab]<br>[/tabgroup]<br>',
-                                    onclick: function(e) {
+                                    onclick: function(e){
                                         e.stopPropagation();
                                         editor.insertContent(this.value());
                                     }       
@@ -205,7 +203,7 @@
                                 {
                                     text: 'Tabs - Vertical',
                                     value: '[tabgroup_vertical title=""]<br>[tab title="Tab 1 Title"] Tab content [/tab]<br>[tab title="Tab 2 Title"] Tab content [/tab]<br>[tab title="Tab 3 Title"] Tab content [/tab]<br>[/tabgroup_vertical]',
-                                    onclick: function(e) {
+                                    onclick: function(e){
                                         e.stopPropagation();
                                         editor.insertContent(this.value());
                                     }       
@@ -213,18 +211,17 @@
                                 {
                                     text: 'Accordion',
                                     value: '[accordion title="Accordion title"]<br><br>[accordion-item title="Accordion Item 1 Title"]<br>Accordion Item 1 Content Goes Here<br>[/accordion-item]<br><br>[accordion-item title="Accordion Item 1 Title"]<br>Accordion Item 1 Content Goes Here<br>[/accordion-item]<br><br>[accordion-item title="Accordion Item 1 Title"]<br> Accordion Item 1 Content Goes Here<br> [/accordion-item]<br><br>[/accordion]',
-                                    onclick: function(e) {
+                                    onclick: function(e){
                                         e.stopPropagation();
                                         editor.insertContent(this.value());
                                     }       
                                 }
-                               
                             ]
                         },
                         {
                             text: 'Map',
                             value: '[map lat="40.79028" long="-73.95972" height="500px" color="#58728a"] Enter map content here.. [/map]',
-                            onclick: function(e) {
+                            onclick: function(e){
                                 e.stopPropagation();
                                 editor.insertContent(this.value());
                             }       
@@ -235,29 +232,28 @@
                                 {
                                     text: 'Blog Post Slider',
                                     value: '[blog_posts posts="6" columns="3" image_height="200px" show_date="true"]',
-                                    onclick: function(e) {
+                                    onclick: function(e){
                                         e.stopPropagation();
                                         editor.insertContent(this.value());
                                     }       
                                 },
-                                 {
+                                {
                                     text: 'Blog Post Slider - Text overlay',
                                     value: '[blog_posts columns="3" style="text-overlay" posts="8" category="" image_height="150px" show_date="true"]',
-                                    onclick: function(e) {
+                                    onclick: function(e){
                                         e.stopPropagation();
                                         editor.insertContent(this.value());
                                     }       
                                 },
-                                 {
+                                {
                                     text: 'Blog Post Slider - Text Bounce',
                                     value: '[blog_posts columns="3" style="text-bounce" posts="8" category="" image_height="150px" show_date="true"]',
-                                    onclick: function(e) {
+                                    onclick: function(e){
                                         e.stopPropagation();
                                         editor.insertContent(this.value());
                                     }       
                                 }
                             ]  
-                               
                         },
                         {
                             text: 'Titles / Dividers',
@@ -266,7 +262,7 @@
                                 {
                                     text: 'Title - Left',
                                     value: '[title text="This is a title" link="" link_text=""]',
-                                    onclick: function(e) {
+                                    onclick: function(e){
                                         e.stopPropagation();
                                         editor.insertContent(this.value());
                                     }       
@@ -274,7 +270,7 @@
                                 {
                                     text: 'Title - Center',
                                     value: '[title text="This is a centered title" style="center"]',
-                                    onclick: function(e) {
+                                    onclick: function(e){
                                         e.stopPropagation();
                                         editor.insertContent(this.value());
                                     }       
@@ -282,7 +278,7 @@
                                 {
                                     text: 'Title - Bold Left',
                                     value: '[title text="This is a bold title" style="bold"]',
-                                    onclick: function(e) {
+                                    onclick: function(e){
                                         e.stopPropagation();
                                         editor.insertContent(this.value());
                                     }       
@@ -290,7 +286,7 @@
                                 {
                                     text: 'Title - Bold Center',
                                     value: '[title text="This is a bold centered title" style="bold_center"]',
-                                    onclick: function(e) {
+                                    onclick: function(e){
                                         e.stopPropagation();
                                         editor.insertContent(this.value());
                                     }       
@@ -298,7 +294,7 @@
                                 {
                                     text: 'Title - Left (With link)',
                                     value: '[title text="This is a title" link="#" link_text="Title link"]',
-                                    onclick: function(e) {
+                                    onclick: function(e){
                                         e.stopPropagation();
                                         editor.insertContent(this.value());
                                     }       
@@ -306,7 +302,7 @@
                                 {
                                     text: 'Divider',
                                     value: '[divider]',
-                                    onclick: function(e) {
+                                    onclick: function(e){
                                         e.stopPropagation();
                                         editor.insertContent(this.value());
                                     }       
@@ -314,7 +310,7 @@
                                 {
                                     text: 'Divider - Full Width',
                                     value: '[divider width="full"]',
-                                    onclick: function(e) {
+                                    onclick: function(e){
                                         e.stopPropagation();
                                         editor.insertContent(this.value());
                                     }       
@@ -322,21 +318,21 @@
                                 {
                                     text: 'Divider - Small',
                                     value: '[divider width="small"]',
-                                    onclick: function(e) {
+                                    onclick: function(e){
                                         e.stopPropagation();
                                         editor.insertContent(this.value());
                                     }       
                                 },
                                 {
-                                     text: 'Divider - Medium',
+                                    text: 'Divider - Medium',
                                     value: '[divider width="medium"]',
-                                    onclick: function(e) {
+                                    onclick: function(e){
                                         e.stopPropagation();
                                         editor.insertContent(this.value());
                                     }       
                                 },
                                 {
-                                     text: 'Gap - 30px',
+                                    text: 'Gap - 30px',
                                     value: '[gap height="30px"]',
                                     onclick: function(e) {
                                         e.stopPropagation();
@@ -344,17 +340,17 @@
                                     }       
                                 },
                                 {
-                                     text: 'Gap - 60px',
+                                    text: 'Gap - 60px',
                                     value: '[gap height="60px"]',
-                                    onclick: function(e) {
+                                    onclick: function(e){
                                         e.stopPropagation();
                                         editor.insertContent(this.value());
                                     }       
                                 },
                                 {
-                                     text: 'Gap - 15px',
+                                    text: 'Gap - 15px',
                                     value: '[gap height="15px"]',
-                                    onclick: function(e) {
+                                    onclick: function(e){
                                         e.stopPropagation();
                                         editor.insertContent(this.value());
                                     }       
@@ -365,10 +361,10 @@
                         {
                             text: 'Follow / Share',
                             menu: [
-                             {
+                                {
                                     text: 'Follow Icons',
                                     value: '[follow twitter="http://" facebook="http://" email="email@post.com" pinterest="http://" rss="http://" instagram="http://" googleplus="http://"]',
-                                    onclick: function(e) {
+                                    onclick: function(e){
                                         e.stopPropagation();
                                         editor.insertContent(this.value());
                                     }       
@@ -376,7 +372,7 @@
                                 {
                                     text: 'Follow Icons - Small',
                                     value: '[follow size="small" twitter="http://" facebook="http://" email="email@post.com" pinterest="http://" rss="http://" instagram="http://" googleplus="http://"]',
-                                    onclick: function(e) {
+                                    onclick: function(e){
                                         e.stopPropagation();
                                         editor.insertContent(this.value());
                                     }       
@@ -384,7 +380,7 @@
                                 {
                                     text: 'Share icons',
                                     value: '[share title=""]',
-                                    onclick: function(e) {
+                                    onclick: function(e){
                                         e.stopPropagation();
                                         editor.insertContent(this.value());
                                     }       
@@ -392,11 +388,10 @@
                                
                             ]   
                         },
-
                         {
                             text: 'Price Table',
                             value: '[ux_price_table price="99$" title="Awesome title" featured="false" description="This is a description" button_text="Order Now" button_link="#"]<br>[bullet_item text="This is a bullet item"]<br>[bullet_item text="This is a bullet item"]<br>[bullet_item text="This is a bullet item"]<br>[/ux_price_table]',
-                            onclick: function(e) {
+                            onclick: function(e){
                                 e.stopPropagation();
                                 editor.insertContent(this.value());
                             }       
@@ -404,7 +399,7 @@
                         {
                             text: 'Testimonial',
                             value: '[testimonial style="" image="http://imageurl" name="Author name" company="Company name" stars="5"]<br> Add testimonial text here <br>[/testimonial]',
-                            onclick: function(e) {
+                            onclick: function(e){
                                 e.stopPropagation();
                                 editor.insertContent(this.value());
                             }       
@@ -412,7 +407,7 @@
                         {
                             text: 'Team Member',
                             value: '[team_member name="Name" title="Title" facebook="http://" twitter="http://" pinterest="http://"  img="http://imageurl"]<br>Team member description<br>[/team_member]',
-                            onclick: function(e) {
+                            onclick: function(e){
                                 e.stopPropagation();
                                 editor.insertContent(this.value());
                             }       
@@ -420,7 +415,7 @@
                         {
                             text: 'Message Box',
                             value: '[message_box bg="#hex or http://imageurl"] Message box text [/message_box]',
-                            onclick: function(e) {
+                            onclick: function(e){
                                 e.stopPropagation();
                                 editor.insertContent(this.value());
                             }       
@@ -428,7 +423,7 @@
                         {
                             text: 'Scroll To Link',
                             value: '[scroll_to link="#scrolltothis" title="Scroll to This"]',
-                            onclick: function(e) {
+                            onclick: function(e){
                                 e.stopPropagation();
                                 editor.insertContent(this.value());
                             }       
@@ -444,18 +439,18 @@
                         {
                             text: 'Product Sliders',
                             menu: [
-                            {
+                                {
                                     text: 'Featured products',
                                     value: '[ux_featured_products products="" columns="4" title="Check our Featured products!"]',
-                                    onclick: function(e) {
+                                    onclick: function(e){
                                         e.stopPropagation();
                                         editor.insertContent(this.value());
                                     }       
                                 },
-                             {
+                                {
                                     text: 'Best selling products',
                                     value: '[ux_bestseller_products products="" columns="4" title="Check our bestsellers!"]',
-                                    onclick: function(e) {
+                                    onclick: function(e){
                                         e.stopPropagation();
                                         editor.insertContent(this.value());
                                     }       
@@ -464,7 +459,7 @@
                                     text: 'Custom category',
                                     tooltip: 'Show products from an selected category',
                                     value: '[ux_custom_products cat="" products="" columns="4" title="Check our bestsellers!"]',
-                                    onclick: function(e) {
+                                    onclick: function(e){
                                         e.stopPropagation();
                                         editor.insertContent(this.value());
                                     }       
@@ -472,7 +467,7 @@
                                 {
                                     text: 'Products On Sale',
                                     value: '[ux_sale_products columns="4" title="Check our Products on Sale!"]',
-                                    onclick: function(e) {
+                                    onclick: function(e){
                                         e.stopPropagation();
                                         editor.insertContent(this.value());
                                     }       
@@ -480,7 +475,7 @@
                                 {
                                     text: 'Latest products',
                                     value: '[ux_latest_products columns="4" title="Check our Latest products!"]',
-                                    onclick: function(e) {
+                                    onclick: function(e){
                                         e.stopPropagation();
                                         editor.insertContent(this.value());
                                     }       
@@ -490,10 +485,10 @@
                         {
                             text: 'Categories',
                             menu: [
-                             {
+                                {
                                     text: 'Category Slider',
                                     value: '[ux_product_categories number="10" parent="0" columns="4" title="Our categories" ]',
-                                    onclick: function(e) {
+                                    onclick: function(e){
                                         e.stopPropagation();
                                         editor.insertContent(this.value());
                                     }       
@@ -501,7 +496,7 @@
                                 {
                                     text: 'Category Grid - Simple Grid',
                                     value: '[product_categories number="10" parent="0" columns="4" title="Our categories"]',
-                                    onclick: function(e) {
+                                    onclick: function(e){
                                         e.stopPropagation();
                                         editor.insertContent(this.value());
                                     }       
@@ -509,7 +504,7 @@
                                 {
                                     text: 'Category Grid - New Grid style',
                                     value: '[ux_product_categories_grid number="22" parent="0"]',
-                                    onclick: function(e) {
+                                    onclick: function(e){
                                         e.stopPropagation();
                                         editor.insertContent(this.value());
                                     }       
@@ -519,7 +514,7 @@
                         {
                             text: 'Product Lookbook Slider',
                             value: '[product_lookbook cat="category-slug" products="8"]',
-                            onclick: function(e) {
+                            onclick: function(e){
                                 e.stopPropagation();
                                 editor.insertContent(this.value());
                             }       
@@ -527,7 +522,7 @@
                         {
                             text: 'Product Pinterest Style Grid',
                             value: '[products_pinterest_style products="" cat="category-slug" columns="4"]',
-                            onclick: function(e) {
+                            onclick: function(e){
                                 e.stopPropagation();
                                 editor.insertContent(this.value());
                             }       
@@ -535,10 +530,10 @@
                         {
                             text: 'WooCommerce',
                             menu: [
-                             {
+                                {
                                     text: 'Order Tracking',
                                     value: '[woocommerce_order_tracking]',
-                                    onclick: function(e) {
+                                    onclick: function(e){
                                         e.stopPropagation();
                                         editor.insertContent(this.value());
                                     }       
@@ -546,7 +541,7 @@
                                 {
                                     text: 'Product Price/cart button',
                                     value: '[add_to_cart id="" sku=""]',
-                                    onclick: function(e) {
+                                    onclick: function(e){
                                         e.stopPropagation();
                                         editor.insertContent(this.value());
                                     }       
@@ -554,7 +549,7 @@
                                 {
                                     text: 'Products by SKU',
                                     value: '[product id="" sku=""]',
-                                    onclick: function(e) {
+                                    onclick: function(e){
                                         e.stopPropagation();
                                         editor.insertContent(this.value());
                                     }       
@@ -562,7 +557,7 @@
                                 {
                                     text: 'Custom products',
                                     value: '[product_category category="" per_page="12" columns="4" orderby="date" order="desc"]',
-                                    onclick: function(e) {
+                                    onclick: function(e){
                                         e.stopPropagation();
                                         editor.insertContent(this.value());
                                     }       
@@ -570,7 +565,7 @@
                                 {
                                     text: 'Recent products',
                                     value: '[recent_products per_page="12" columns="4" orderby="date" order="desc"]',
-                                    onclick: function(e) {
+                                    onclick: function(e){
                                         e.stopPropagation();
                                         editor.insertContent(this.value());
                                     }       
@@ -578,7 +573,7 @@
                                 {
                                     text: 'Featured Products',
                                     value: '[featured_products per_page="12" columns="4" orderby="date" order="desc"]',
-                                    onclick: function(e) {
+                                    onclick: function(e){
                                         e.stopPropagation();
                                         editor.insertContent(this.value());
                                     }       
@@ -586,31 +581,22 @@
                                 {
                                     text: 'Shop messages',
                                     value: '[woocommerce_shop_messages]',
-                                    onclick: function(e) {
+                                    onclick: function(e){
                                         e.stopPropagation();
                                         editor.insertContent(this.value());
                                     }       
                                 },
-
-
-
-
                             ]         
                         },
-
                     ]
                 },
            ]
         });
     });
-
-
-
 /* ADD BANNER */
 function ux_add_uxbanner(editor){
     var list_style = 'height:90px; width:130px; text-indent: -999px; text-align:center;padding-top:3px; background-repeat:no-repeat;font-size:10px!important;border-top:1px solid #555;';
     ux_selected_image = 'http://imageurl';
-
     editor.windowManager.open( {
         title: 'Insert UX Banner',
         body: [
@@ -627,7 +613,6 @@ function ux_add_uxbanner(editor){
                 {text: '300px', value: 'height="300px"'},
                 {text: '200px', value: 'height="200px"'},
                 {text: '100px', value: 'height="100px"'},
-
             ]
         },
         {
@@ -653,7 +638,6 @@ function ux_add_uxbanner(editor){
                 {text: 'Strongest', value: 'parallax="9"'},
             ]
         },
-
         {
             type: 'listbox', 
             name: 'parallax_text', 
@@ -730,7 +714,7 @@ function ux_add_uxbanner(editor){
             ]
         },
     ],
-        onsubmit: function( e ) {
+        onsubmit: function(e){
             var banner_content = '[ux_banner '+e.data.parallax+' bg="'+ux_selected_image+'" '+e.data.height+' '+e.data.banner_effect+'][text_box '+e.data.text_color+' '+e.data.text_layout+'  '+e.data.parallax_text+' '+e.data.text_animation+'] '+e.data.text_content+' [/text_box] [/ux_banner]';
             if(e.data.text_color == 'text_color="dark"'){
               var banner_content = banner_content.replace(/white/g, "dark");
@@ -741,12 +725,9 @@ function ux_add_uxbanner(editor){
     });
 }
 // END BANNERS
-
-
 /* ADD SECTION */
 function ux_add_section(editor){
     ux_selected_image = 'http://imageurl';
-
     editor.windowManager.open( {
         title: 'Insert Section',
         body: [
@@ -762,7 +743,7 @@ function ux_add_section(editor){
             label: 'Background Image',
             text: 'Select image',
             icon: 'icon dashicons-format-gallery',
-             onclick: function(e) {
+             onclick: function(e){
                e.preventDefault();
                UXgalleryModal();
             },
@@ -808,17 +789,15 @@ function ux_add_section(editor){
         }
 
     ],
-        onsubmit: function( e ) {
+        onsubmit: function(e){
             editor.insertContent( '[section bg="'+ux_selected_image+'" title="" padding="'+e.data.padding+'" '+e.data.text_color+' '+e.data.parallax_text+' '+e.data.parallax+' margin="'+e.data.margin+'"]<br><br>[/section]');
         }
     });
 }
 // END SECTIIONS
-
-
 /* ADD ROW */
 function ux_add_row(editor){
-    editor.windowManager.open( {
+    editor.windowManager.open({
         title: 'Insert Row',
         body: [
         {
@@ -880,9 +859,8 @@ function ux_add_row(editor){
                 {text: 'Testimonial', value:'[testimonial image="http://imageurl" name="Author name" company="Company name" stars="5"]<br> Add testimonial text here <br>[/testimonial]<br>'},
             ]
         }
-
     ],
-        onsubmit: function( e ) {
+        onsubmit: function(e){
             if(e.data.columns == '1'){
                var insertContent = '[col span="1/1" '+e.data.columns_hover+' '+e.data.column_animate+']<br>'+e.data.column_content+'<br/>[/col]<br>';
             }
@@ -909,8 +887,6 @@ function ux_add_row(editor){
     });
 }
 // END ROW
-
-
 var uxAnimations = [
     {text: 'No Animations', value:''},
     {text: 'FadeInLeft', value:'animate="fadeInLeft"'},
@@ -927,29 +903,25 @@ var uxAnimations = [
     {text: 'Flip In X', value: 'animate="flipInX"'},
     {text: 'Flip In Y', value: 'animate="flipInY"'},
 ]
-
-
 function UXgalleryModal(){
     // Uploading files
 var file_frame;
- 
     // If the media frame already exists, reopen it.
-    if ( file_frame ) {
+    if (file_frame){
       file_frame.open();
       return;
     }
- 
     // Create the media frame.
     file_frame = wp.media.frames.file_frame = wp.media({
       title: jQuery( this ).data( 'uploader_title' ),
       button: {
-        text: jQuery( this ).data( 'uploader_button_text' ),
+        text: jQuery( this ).data('uploader_button_text'),
       },
       multiple: false  // Set to true to allow multiple files to be selected
     });
- 
+
     // When an image is selected, run a callback.
-    file_frame.on( 'select', function() {
+    file_frame.on('select', function(){
       // We set multiple to false so only get one image from the uploader
       attachment = file_frame.state().get('selection').first().toJSON();
       ux_selected_image = attachment.url;
@@ -957,9 +929,7 @@ var file_frame;
       jQuery('.mce-i-icon.dashicons-format-gallery').parent().css('background-image','url('+attachment.url+')');
       // Do something with attachment.id and/or attachment.url here
     });
- 
     // Finally, open the modal
     file_frame.open();
 }
-
 })();

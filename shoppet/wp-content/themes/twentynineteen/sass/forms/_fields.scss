@@ -23,24 +23,20 @@ textarea {
 	-webkit-appearance: none;
 	outline-offset: 0;
 	border-radius: 0;
-
 	&:focus {
 		border-color: $color__link;
 		outline: thin solid rgba( $color__link, 0.15 );
 		outline-offset: -4px;
 	}
 }
-
-input[type="search"] {
+input[type="search"]{
 	&::-webkit-search-decoration {
 		display: none;
 	}
 }
-
 select {
 
 }
-
 textarea {
 	box-sizing: border-box;
 	display: block;
@@ -48,9 +44,7 @@ textarea {
 	max-width: 100%;
 	resize: vertical;
 }
-
 form {
-
 	p {
 		margin: $size__spacing-unit 0;
 	}

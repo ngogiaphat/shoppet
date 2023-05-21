@@ -12,7 +12,6 @@
  */
 wp.customHtmlWidgets = ( function( $ ) {
 	'use strict';
-
 	var component = {
 		idBases: [ 'custom_html' ],
 		codeEditorSettings: {},
@@ -23,16 +22,13 @@ wp.customHtmlWidgets = ( function( $ ) {
 			}
 		}
 	};
-
 	component.CustomHtmlWidgetControl = Backbone.View.extend(/** @lends wp.customHtmlWidgets.CustomHtmlWidgetControl.prototype */{
-
 		/**
 		 * View events.
 		 *
 		 * @type {Object}
 		 */
 		events: {},
-
 		/**
 		 * Text widget control.
 		 *
@@ -46,16 +42,14 @@ wp.customHtmlWidgets = ( function( $ ) {
 		 *
 		 * @return {void}
 		 */
-		initialize: function initialize( options ) {
+		initialize: function initialize( options ){
 			var control = this;
-
-			if ( ! options.el ) {
+			if(! options.el){
 				throw new Error( 'Missing options.el' );
 			}
-			if ( ! options.syncContainer ) {
+			if (! options.syncContainer){
 				throw new Error( 'Missing options.syncContainer' );
 			}
-
 			Backbone.View.prototype.initialize.call( control, options );
 			control.syncContainer = options.syncContainer;
 			control.widgetIdBase = control.syncContainer.parent().find( '.id_base' ).val();

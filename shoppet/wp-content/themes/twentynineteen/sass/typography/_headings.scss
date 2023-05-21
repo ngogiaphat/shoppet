@@ -26,7 +26,6 @@ h5,
 h6 {
 	@include font-family( $font__heading );
 }
-
 .main-navigation,
 .page-description,
 .author-description .author-link,
@@ -50,11 +49,9 @@ h6 {
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }
-
 .page-title {
 	@include font-family( $font__body );
 }
-
 .site-branding,
 .main-navigation ul.main-menu > li,
 .social-navigation,
@@ -62,7 +59,6 @@ h6 {
 .nav-links {
 	line-height: 1.25;
 }
-
 h1 {
 	font-size: $font__size-xl;
 
@@ -70,7 +66,6 @@ h1 {
 		font-size: $font__size-xxl;
 	}
 }
-
 .entry-title,
 .not-found .page-title,
 .error-404 .page-title,
@@ -82,14 +77,12 @@ h2 {
 		font-size: $font__size-xl;
 	}
 }
-
 .has-regular-font-size,
 .has-large-font-size,
 .comments-title,
 h3 {
 	font-size: $font__size-lg;
 }
-
 .site-title,
 .site-description,
 .main-navigation,
@@ -103,13 +96,11 @@ p.author-bio,
 h4 {
 	font-size: $font__size-md;
 }
-
 .pagination .nav-links,
 .comment-content,
 h5 {
 	font-size: $font__size-sm;
 }
-
 .entry-meta,
 .entry-footer,
 .discussion-meta-info,
@@ -124,21 +115,17 @@ img:after,
 h6 {
 	font-size: $font__size-xs;
 }
-
 .site-title,
 .page-title {
 	font-weight: normal;
 }
-
 .page-description,
 .page-links a {
 	font-weight: bold;
 }
-
 .site-description {
 	letter-spacing: -0.01em;
 }
-
 .post-navigation .post-title,
 .entry-title,
 .not-found .page-title,
@@ -152,7 +139,6 @@ blockquote {
 	word-break: break-word;
 	word-wrap: break-word;
 }
-
 /* Do not hyphenate entry title on tablet view and bigger. */
 .entry-title {
 	@include media(tablet) {

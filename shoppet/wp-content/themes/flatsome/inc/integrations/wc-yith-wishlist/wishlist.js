@@ -1,11 +1,10 @@
 Flatsome.behavior('wishlist', {
-  attach: function (context) {
-    jQuery('.wishlist-button', context).each(function (index, element) {
+  attach: function(context){
+    jQuery('.wishlist-button', context).each(function (index, element){
       'use strict'
-
-      jQuery(element).on('click', function (e) {
+      jQuery(element).on('click', function(e){
         // Browse wishlist
-        if (jQuery(this).parent().find('.yith-wcwl-wishlistexistsbrowse, .yith-wcwl-wishlistaddedbrowse').length) {
+        if (jQuery(this).parent().find('.yith-wcwl-wishlistexistsbrowse, .yith-wcwl-wishlistaddedbrowse').length){
           var link = jQuery(this).parent().find('.yith-wcwl-wishlistexistsbrowse a, .yith-wcwl-wishlistaddedbrowse a').attr('href')
           window.location.href = link
           return
@@ -14,47 +13,42 @@ Flatsome.behavior('wishlist', {
         // Delete or add item (only one of both is present).
         jQuery(this).parent().find('.delete_item').click()
         jQuery(this).parent().find('.add_to_wishlist').click()
-
         e.preventDefault()
       })
     })
   }
 })
-
-jQuery(document).ready(function () {
-  var flatsomeAddToWishlist = function () {
+jQuery(document).ready(function(){
+  var flatsomeAddToWishlist = function(){
     jQuery('.wishlist-button').removeClass('loading')
     jQuery('.wishlist-button').addClass('wishlist-added')
-
     jQuery.ajax({
-      beforeSend: function () {
+      beforeSend: function(){
 
       },
-      complete: function () {
+      complete: function(){
 
       },
       data: {
         action: 'flatsome_update_wishlist_count',
       },
-      success: function (data) {
+      success: function(data){
         jQuery('i.wishlist-icon').addClass('added')
-        if (data == 0) {
+        if(data == 0){
           jQuery('i.wishlist-icon').removeAttr('data-icon-label')
         }
-        else if (data == 1) {
+        else if(data == 1){
           jQuery('i.wishlist-icon').attr('data-icon-label', '1')
         }
         else {
           jQuery('i.wishlist-icon').attr('data-icon-label', data)
         }
-        setTimeout(function () {
+        setTimeout(function(){
           jQuery('i.wishlist-icon').removeClass('added')
         }, 500)
       },
-
       url: yith_wcwl_l10n.ajax_url,
     })
   }
-
   jQuery('body').on('added_to_wishlist removed_from_wishlist', flatsomeAddToWishlist)
 })

@@ -1,8 +1,6 @@
-
 html {
 	font-size: $font__size_base;
 }
-
 body {
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
@@ -14,7 +12,6 @@ body {
 	margin: 0;
 	text-rendering: optimizeLegibility;
 }
-
 button,
 input,
 select,
@@ -26,7 +23,5 @@ textarea {
 	line-height: $font__line-height-body;
 	text-rendering: optimizeLegibility;
 }
-
 @import "headings";
-
 @import "copy";

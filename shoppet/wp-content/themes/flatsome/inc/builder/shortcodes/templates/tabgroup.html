@@ -2,7 +2,6 @@
     <h4 ng-if="shortcode.options.title" class="uppercase text-{{ shortcode.options.align }}">
         {{ shortcode.options.title }}
     </h4>
-
     <ul class="nav nav-{{ shortcode.options.style }} nav-{{ shortcode.options.navStyle }} nav-size-{{ shortcode.options.navSize }} nav-spacing-{{ shortcode.options.navSpacing }} nav-{{ shortcode.options.align }}" ng-class="{ 'nav-vertical': shortcode.options.type === 'vertical' }">
         <li class="tab"
             ng-repeat="shortcode in $customCtrl.shortcode.children track by shortcode.$id"

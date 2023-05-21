@@ -3,7 +3,6 @@ button,
 input[type="button"],
 input[type="reset"],
 input[type="submit"] {
-
 	@include button-transition;
 	background: $color__background-button;
 	border: none;
@@ -18,17 +17,14 @@ input[type="submit"] {
 	padding: ( $size__spacing-unit * .76 ) $size__spacing-unit;
 	text-decoration: none;
 	vertical-align: bottom;
-
 	&:hover {
 		background: $color__background-button-hover;
 		cursor: pointer;
 	}
-
 	&:visited {
 		color: $color__background-body;
 		text-decoration: none;
 	}
-
 	&:focus {
 		background: $color__background-button-hover;
 		outline: thin dotted;

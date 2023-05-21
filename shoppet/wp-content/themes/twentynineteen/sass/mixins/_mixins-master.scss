@@ -1,5 +1,5 @@
 // Rem output with px fallback
-@mixin font-size($sizeValue: 1) {
+@mixin font-size($sizeValue: 1){
 	font-size: ($sizeValue * 16) * 1px;
 	font-size: $sizeValue * 1rem;
 }
@@ -12,50 +12,43 @@
 }
 
 // Clearfix
-@mixin clearfix() {
+@mixin clearfix(){
 	content: "";
 	display: table;
 	table-layout: fixed;
 }
 
 // Clear after (not all clearfix need this also)
-@mixin clearfix-after() {
+@mixin clearfix-after(){
 	clear: both;
 }
 
 // Column width with margin
-@mixin column-width($numberColumns: 3) {
+@mixin column-width($numberColumns: 3){
 	width: map-get($columns, $numberColumns) - (($columns__margin * ($numberColumns - 1)) / $numberColumns);
 }
-
 @mixin filter-duotone {
-
 	&:before {
 		background: $color__link;
 		mix-blend-mode: screen;
 		opacity: 0.1;
 		z-index: 2;
 	}
-
 	&:after {
 		background: $color__link;
 		mix-blend-mode: multiply;
 		opacity: .8;
 		z-index: 3;
-
 		/* Browsers supporting mix-blend-mode don't need opacity < 1 */
 		@supports (mix-blend-mode: multiply) {
 			opacity: 1;
 		}
 	}
 }
-
 @mixin filter-grayscale {
-
 	position: relative;
 	filter: grayscale(100%);
 	z-index: 1;
-
 	&:after {
 		display: block;
 		width: 100%;
@@ -63,9 +56,7 @@
 		z-index: 10;
 	}
 }
-
 @mixin post-section-dash {
-
 	&:before {
 		background: $color__text-light;
 		content: "\020";
@@ -79,7 +70,6 @@
 /* If we add the border using a regular CSS border, it won't look good on non-retina devices,
  * since its edges can look jagged due to lack of antialiasing. In this case, we are several
  * layers of box-shadow to add the border visually, which will render the border smoother. */
-
 @mixin box-shadow( $size ) {
 	box-shadow:
 		0 0 0 $size $color__text-light inset,           // Original border.
@@ -88,24 +78,20 @@
 }
 
 /* Calculates maximum width for post content */
-@mixin postContentMaxWidth() {
-
-	@include media(tablet) {
+@mixin postContentMaxWidth(){
+	@include media(tablet){
 		max-width: $size__site-tablet-content;
 	}
-
-	@include media(desktop) {
+	@include media(desktop){
 		max-width: $size__site-desktop-content;
 	}
 }
 
 /* Nested sub-menu padding: 10 levels deep */
-@mixin nestedSubMenuPadding() {
-
+@mixin nestedSubMenuPadding(){
 	ul {
 		counter-reset: submenu;
 	}
-
 	ul > li > a::before {
 		font-family: $font__body;
 		font-weight: normal;
@@ -115,7 +101,7 @@
 }
 
 /* Ensure all font family declarations come with non-latin fallbacks */
-@mixin font-family( $font_family: $font__body ) {
+@mixin font-family($font_family: $font__body){
 	font-family: $font_family;
 	@extend %non-latin-fonts;
 }
@@ -123,10 +109,9 @@
 /* Build our non-latin font styles */
 %non-latin-fonts {
 	@each $lang, $font__fallback in $font__fallbacks {
-		&:lang(#{$lang}) {
-			font-family: unquote( $font__fallback );
+		&:lang(#{$lang}){
+			font-family: unquote($font__fallback);
 		}
 	}
 }
-
 @import "utilities";

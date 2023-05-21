@@ -3,7 +3,6 @@ table {
 	border-collapse: collapse;
 	width: 100%;
 	@include font-family( $font__heading );
-
 	td,
 	th {
 		padding: 0.5em;

@@ -12,24 +12,23 @@
     y{{ shortcode.options.positionY }}
     md-y{{ shortcode.options.positionY }}
     lg-y{{ shortcode.options.positionY }}
-  " ng-class="{'has-hover-effect' : shortcode.options.hover}">
+  " 
+  ng-class="{'has-hover-effect' : shortcode.options.hover}">
     <div ng-attr-data-animate="{{ shortcode.options.animate }}" data-animated="true">
     <div ng-class="{['hover-'+shortcode.options.hover ] : shortcode.options.hover}">
-    <div class="text
-        text-shadow-{{ shortcode.options.textDepth }}
-        box-shadow-{{ shortcode.options.depth }}
-        box-shadow-{{ shortcode.options.depthHover }}-hover"
+    <div class="text text-shadow-{{ shortcode.options.textDepth }} box-shadow-{{ shortcode.options.depth }} box-shadow-{{ shortcode.options.depthHover }}-hover"
 	    ng-class="{'dark' : shortcode.options.textColor == 'light'}"
 	    data-parallax-fade="true"
-      ng-attr-data-parallax="{{ shortcode.options.parallax }}">
-         <div ng-if="shortcode.options.border" class="is-border is-{{shortcode.options.borderStyle}}"
+      ng-attr-data-parallax="{{ shortcode.options.parallax }}"
+    >
+      <div ng-if="shortcode.options.border" class="is-border is-{{shortcode.options.borderStyle}}"
         ng-style="{
           'borderRadius': shortcode.options.borderRadius+'px',
           'borderWidth': shortcode.options.border,
           'margin': shortcode.options.borderMargin,
           'borderColor': shortcode.options.borderColor,
-          }"
-        ></div>
+        }"
+      ></div>
 	    <div class="text-inner text-{{ shortcode.options.textAlign }}">
 	    	<content />
 	    </div>

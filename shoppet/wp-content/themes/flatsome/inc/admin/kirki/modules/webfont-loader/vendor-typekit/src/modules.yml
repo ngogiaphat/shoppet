@@ -13,22 +13,15 @@ core:
   - core/fontwatcher.js
   - core/webfont.js
   - core/initialize.js
-
-
-
 google:
   - modules/google/fontapiurlbuilder.js
   - modules/google/fontapiparser.js
   - modules/google/googlefontapi.js
-
 fontdeck:
   - modules/fontdeck.js
-
 typekit:
   - modules/typekit.js
-
 monotype:
   - modules/monotype.js
-
 custom:
   - modules/custom.js
