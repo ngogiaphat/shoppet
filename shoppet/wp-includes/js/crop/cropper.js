@@ -177,7 +177,7 @@ Cropper.Img.prototype={
                             Event.stopObserving(_17[i],"mousedown",this.startResize.bindAsEventListener(this));
                         }
                         if(this.options.captureKeys){
-                        Event.stopObserving(document,"keydown",this.handleKeys.bindAsEventListener(this));
+                            Event.stopObserving(document,"keydown",this.handleKeys.bindAsEventListener(this));
                         }
                     },  reset:function(){
                             if(!this.attached){
@@ -390,7 +390,7 @@ Cropper.Img.prototype={
                                                                         _47.width=this.areaCoords.x1+"px";
                                                                     }
                                                                     else { 
-                                                                    _42.backgroundPosition="-"+this.areaCoords.x1+"px "+"-"+this.areaCoords.y1+"px";
+                                                                        _42.backgroundPosition="-"+this.areaCoords.x1+"px "+"-"+this.areaCoords.y1+"px";
                                                                     }
                                                                     this.subDrawArea();
                                                                     this.forceReRender();
@@ -410,7 +410,7 @@ Cropper.Img.prototype={
                                                                                 for(i=0;i<_4a.length;i++){
                                                                                     el=document.getElementsByClassName("imgCrop_handle"+_4a[i],this.selArea)[0];
                                                                                     if(el.childNodes.length){
-                                                                                    el.removeChild(el.childNodes[0]);
+                                                                                        el.removeChild(el.childNodes[0]);
                                                                                     }
                                                                                     el.appendChild(d);
                                                                                 }
@@ -511,7 +511,7 @@ Cropper.Img.prototype={
                                                                                             this.resizing=false;
                                                                                             this.options.onEndCrop(this.areaCoords,{width:this.calcW(),height:this.calcH()});
                                                                                         }, subInitialize:function(){}, subDrawArea:function(){}
-    };  
+                                                                                                                                                };
 Cropper.ImgWithPreview=Class.create();
 Object.extend(Object.extend(Cropper.ImgWithPreview.prototype,Cropper.Img.prototype), {
     subInitialize:function(){

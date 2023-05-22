@@ -4,7 +4,6 @@
 	position: relative;
 	cursor: crosshair;
 }
-
 /* an extra classname is applied for Opera < 9.0 to fix its lack of opacity support */
 .imgCrop_wrap.opera8 .imgCrop_overlay,
 .imgCrop_wrap.opera8 .imgCrop_clickArea { 
@@ -16,7 +15,6 @@
 .imgCrop_wrap * {
 	font-size: 0;
 }
-
 .imgCrop_overlay {
 	background-color: #000;
 	opacity: 0.5;
@@ -25,7 +23,6 @@
 	width: 100%;
 	height: 100%;
 }
-
 .imgCrop_selArea {
 	position: absolute;
 	/* @done_in_js 
@@ -47,7 +44,6 @@
 	opacity: 0.01;
 	filter:alpha(opacity=01);
 }
-
 .imgCrop_marqueeHoriz {
 	position: absolute;
 	width: 100%;
@@ -55,7 +51,6 @@
 	background: transparent url(marqueeHoriz.gif) repeat-x 0 0;
 	z-index: 3;
 }
-
 .imgCrop_marqueeVert {
 	position: absolute;
 	height: 100%;
@@ -63,13 +58,10 @@
 	background: transparent url(marqueeVert.gif) repeat-y 0 0;
 	z-index: 3;
 }
-
 .imgCrop_marqueeNorth { top: 0; left: 0; }
 .imgCrop_marqueeEast  { top: 0; right: 0; }
 .imgCrop_marqueeSouth { bottom: 0px; left: 0; }
 .imgCrop_marqueeWest  { top: 0; left: 0; }
-
-
 .imgCrop_handle {
 	position: absolute;
 	border: 1px solid #333;
@@ -88,53 +80,45 @@
 	wid\th: 6px;
 	hei\ght: 6px;
 }
-
 .imgCrop_handleN {
 	top: -3px;
 	left: 0;
 	/* margin-left: 49%;    @done_in_js */
 	cursor: n-resize;
 }
-
 .imgCrop_handleNE { 
 	top: -3px;
 	right: -3px;
 	cursor: ne-resize;
 }
-
 .imgCrop_handleE {
 	top: 0;
 	right: -3px;
 	/* margin-top: 49%;    @done_in_js */
 	cursor: e-resize;
 }
-
 .imgCrop_handleSE {
 	right: -3px;
 	bottom: -3px;
 	cursor: se-resize;
 }
-
 .imgCrop_handleS {
 	right: 0;
 	bottom: -3px;
 	/* margin-right: 49%; @done_in_js */
 	cursor: s-resize;
 }
-
 .imgCrop_handleSW {
 	left: -3px;
 	bottom: -3px;
 	cursor: sw-resize;
 }
-
 .imgCrop_handleW {
 	top: 0;
 	left: -3px;
 	/* margin-top: 49%;  @done_in_js */
 	cursor: e-resize;
 }
-
 .imgCrop_handleNW {
 	top: -3px;
 	left: -3px;
@@ -152,14 +136,12 @@
 	top: 0;
 	left: 0;
 }
-
 .imgCrop_previewWrap {
 	/* width: 200px;  @done_in_js */
 	/* height: 200px; @done_in_js */
 	overflow: hidden;
 	position: relative;
 }
-
 .imgCrop_previewWrap img {
 	position: absolute;
 }
